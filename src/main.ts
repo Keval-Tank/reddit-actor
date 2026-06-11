@@ -28,18 +28,20 @@ if (typeof query !== 'string' || query.trim().length === 0) {
 const searchUrl = `https://www.reddit.com/search.rss?q=${encodeURIComponent(query)}&sort=new&type=link`;
 log.info(`Reddit RSS search URL: ${searchUrl}`);
 
-// Apify datacenter proxy. Combined with `useSessionPool: false` below, the proxy hands out a
-// fresh, rotating IP per request. On a free account without proxy access this resolves to
-// `undefined` and the request goes out directly from the container's own IP — which the
-// RATE_LIMIT_LOG output will reveal (the rate-limit counter will not reset).
+// Apify proxy. Each run is a fresh process, so it gets a fresh session and therefore a fresh
+// exit IP from the proxy pool — that's what rotates IPs across runs. On a free account without
+// proxy access this resolves to `undefined` and the request goes out directly from the
+// container's own IP — which the RATE_LIMIT_LOG output will reveal (the rate-limit counter
+// will not reset across runs).
 const proxyConfiguration = await Actor.createProxyConfiguration({
     checkAccess: true,
 });
 
 const crawler = new CheerioCrawler({
     proxyConfiguration,
-    // Disable the session pool so the proxy is not pinned to a single sticky IP.
-    useSessionPool: false,
+    // Keep the session pool ON: the run gets one sticky IP, so the in-handler ipify call and the
+    // Reddit request go out through the SAME IP — making the logged egress IP the real IP Reddit saw.
+    useSessionPool: true,
     maxRequestsPerCrawl: 1,
     // CheerioCrawler refuses non-HTML content types by default; Reddit RSS is application/atom+xml.
     additionalMimeTypes: ['application/atom+xml', 'application/rss+xml', 'application/xml', 'text/xml'],
