@@ -33,7 +33,6 @@ log.info(`Reddit RSS search URL: ${searchUrl}`);
 // `undefined` and the request goes out directly from the container's own IP — which the
 // RATE_LIMIT_LOG output will reveal (the rate-limit counter will not reset).
 const proxyConfiguration = await Actor.createProxyConfiguration({
-    groups: ['DATACENTER'],
     checkAccess: true,
 });
 
