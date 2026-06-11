@@ -35,7 +35,7 @@ log.info(`Reddit RSS search URL: ${searchUrl}`);
 // will not reset across runs).
 const proxyConfiguration = await Actor.createProxyConfiguration({
     checkAccess: true,
-    groups: ['RESIDENTIAL']
+    // groups: ['RESIDENTIAL']
 });
 
 const crawler = new CheerioCrawler({
