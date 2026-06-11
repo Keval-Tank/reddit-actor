@@ -1,0 +1,22 @@
+{
+    "$schema": "https://apify.com/schemas/v1/dataset.ide.json",
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": ["query", "fetchedAt", "statusCode", "rawRss"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "query": { "label": "Query", "format": "text" },
+                    "fetchedAt": { "label": "Fetched At", "format": "date" },
+                    "statusCode": { "label": "Status", "format": "number" },
+                    "rawRss": { "label": "Raw RSS", "format": "text" }
+                }
+            }
+        }
+    }
+}

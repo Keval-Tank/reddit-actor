@@ -1,0 +1,16 @@
+{
+    "$schema": "https://apify.com/schemas/v1/input.ide.json",
+    "title": "Reddit RSS Search — IP Rotation Validation",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "query": {
+            "title": "Search keyword",
+            "type": "string",
+            "description": "Keyword to search on Reddit. Sent as the `q` parameter to https://www.reddit.com/search.rss?q=<query>&sort=new&type=link",
+            "editor": "textfield",
+            "prefill": "saas developer"
+        }
+    },
+    "required": ["query"]
+}
