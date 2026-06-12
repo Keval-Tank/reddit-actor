@@ -58,6 +58,20 @@ router.addDefaultHandler(async ({ page, request, response, pushData }) => {
         // Non-JSON body (e.g. a 403 block page) — leave postCount null.
     }
 
+    // Capture the cookies the browser context holds — these are what grant access to the endpoint.
+    // They are the actor's own anonymous, logged-out session cookies minted during warm-up (e.g.
+    // token_v2, loid, edgebucket, csv, session_tracker) — NOT a personal account — and they expire.
+    const cookies = (await page.context().cookies()).map((c) => ({
+        name: c.name,
+        value: c.value,
+        domain: c.domain,
+        path: c.path,
+        // expires is a UNIX timestamp in seconds (or -1 for a session cookie).
+        expires: c.expires,
+        httpOnly: c.httpOnly,
+        secure: c.secure,
+    }));
+
     const diagnostics = {
         query,
         jsonUrl,
@@ -68,6 +82,9 @@ router.addDefaultHandler(async ({ page, request, response, pushData }) => {
         egressIp,
         bodyLength: rawJson.length,
         postCount,
+        // Quick-scan list of names, plus the full cookie objects (name/value/domain/expiry).
+        cookieNames: cookies.map((c) => c.name),
+        cookies,
     };
 
     log.info('Reddit JSON warm-up probe diagnostics', diagnostics);
