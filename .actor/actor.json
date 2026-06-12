@@ -2,8 +2,8 @@
     "$schema": "https://apify.com/schemas/v1/actor.ide.json",
     "actorSpecification": 1,
     "name": "my-actor",
-    "title": "Reddit RSS Search — IP Rotation Validation",
-    "description": "Fetches one Reddit search.rss page for a keyword and logs Reddit's per-IP rate-limit headers + egress IP to validate proxy IP rotation on the Apify platform.",
+    "title": "Reddit JSON Search — Headless Browser Validation",
+    "description": "Makes one headless-browser request to old.reddit.com/search.json for a keyword and logs whether the browser retrieves the JSON (initial status, token minted, post count, egress IP) to validate the headless route on the Apify platform.",
     "version": "0.0",
     "buildTag": "latest",
     "meta": {

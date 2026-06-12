@@ -10,3 +10,4 @@ apify_storage
 storage
 .agents/
 skills-lock.json
+loadtest/

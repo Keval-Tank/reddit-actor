@@ -1,51 +1,69 @@
-import { createCheerioRouter } from '@crawlee/cheerio';
+import { createPlaywrightRouter } from '@crawlee/playwright';
 import { Actor, log } from 'apify';
 
-export const router = createCheerioRouter();
+export const router = createPlaywrightRouter();
 
-router.addDefaultHandler(async ({ request, response, body, sendRequest, pushData }) => {
-    const headers = response?.headers ?? {};
+router.addDefaultHandler(async ({ page, request, response }) => {
+    // Status of the very first navigation. A working request may surface here as a 403 challenge
+    // that the page's JS instantly resolves — so this is diagnostic only, not the success signal.
+    const initialStatus = response?.status() ?? null;
 
-    // Reddit's per-IP rate-limit counter. If the proxy rotates the IP, a fresh request shows
-    // used=1 / remaining=99; if the IP is reused, `used` climbs and `remaining` drops.
-    const rateLimit = {
-        used: headers['x-ratelimit-used'],
-        remaining: headers['x-ratelimit-remaining'],
-        reset: headers['x-ratelimit-reset'],
-    };
+    // Let any inline token handshake / JS settle, then read the FINAL rendered body.
+    try {
+        await page.waitForLoadState('networkidle', { timeout: 15_000 });
+    } catch {
+        // networkidle can time out on a busy/streaming page — proceed with whatever rendered.
+    }
 
-    // Best-effort egress IP. This is a separate connection, so under per-request rotation it
-    // may differ from the exact IP Reddit saw — the rate-limit headers above are the rigorous proof.
+    // When Chromium renders a JSON document it shows the raw text in <body>, so innerText is the body.
+    const finalBody = await page.evaluate(() => document.body.innerText);
+
+    // Did the edge mint the logged-out session token during this single navigation?
+    const tokenMinted = (await page.context().cookies()).some((c) => c.name === 'token_v2');
+
+    // Best-effort egress IP (ipify returns Access-Control-Allow-Origin: *, so an in-page fetch is fine).
     let egressIp: string | null = null;
     try {
-        const ipResponse = await sendRequest({ url: 'https://api.ipify.org?format=json' });
-        egressIp = JSON.parse(String(ipResponse.body)).ip;
+        const ipText = await page.evaluate(async () => {
+            const r = await fetch('https://api.ipify.org?format=json');
+            return r.text();
+        });
+        egressIp = JSON.parse(ipText).ip;
     } catch (err) {
         log.warning(`Could not fetch egress IP: ${(err as Error).message}`);
     }
 
+    // Try to parse the body as Reddit listing JSON. postCount > 0 == the route is validated.
+    let postCount: number | null = null;
+    try {
+        const parsed = JSON.parse(finalBody);
+        postCount = Array.isArray(parsed?.data?.children) ? parsed.data.children.length : null;
+    } catch {
+        // Non-JSON body (e.g. a 403 block page) — leave postCount null.
+    }
+
     const diagnostics = {
         query: request.userData.query as string,
-        url: request.loadedUrl ?? request.url,
+        jsonUrl: request.userData.jsonUrl as string,
         fetchedAt: new Date().toISOString(),
-        statusCode: response?.statusCode ?? null,
+        initialStatus,
+        tokenMinted,
         egressIp,
-        rateLimit,
-        serverTiming: headers['server-timing'] ?? null,
-        date: headers.date ?? null,
+        bodyLength: finalBody.length,
+        postCount,
     };
 
-    log.info('Reddit RSS fetch diagnostics', diagnostics);
+    log.info('Reddit JSON headless probe diagnostics', diagnostics);
 
-    // Persist the rate-limit / IP evidence so it is reviewable in the Console after the run.
-    await Actor.setValue('RATE_LIMIT_LOG', diagnostics);
+    // Persist the probe evidence so it is reviewable in the Console after the run.
+    await Actor.setValue('HEADLESS_PROBE_LOG', diagnostics);
 
-    // Store the whole RSS feed as-is (no Atom parsing).
+    // Store the full final body as-is (the raw JSON when it works, the block page when it doesn't).
     await pushData({
         query: diagnostics.query,
-        url: diagnostics.url,
+        jsonUrl: diagnostics.jsonUrl,
         fetchedAt: diagnostics.fetchedAt,
-        statusCode: diagnostics.statusCode,
-        rawRss: body.toString(),
+        initialStatus: diagnostics.initialStatus,
+        rawJson: finalBody,
     });
 });

@@ -1,7 +1,8 @@
 # Specify the base Docker image. You can read more about
 # the available images at https://crawlee.dev/docs/guides/docker-images
 # You can also use any other image from Docker Hub.
-FROM apify/actor-node:24 AS builder
+# Headless-browser image: ships Chromium + Playwright preinstalled (needed by PlaywrightCrawler).
+FROM apify/actor-node-playwright-chrome:24 AS builder
 
 # Check preinstalled packages
 RUN npm ls @crawlee/core apify puppeteer playwright
@@ -22,7 +23,7 @@ COPY --chown=myuser:myuser . ./
 RUN npm run build
 
 # Create final image
-FROM apify/actor-node:24
+FROM apify/actor-node-playwright-chrome:24
 
 # Check preinstalled packages
 RUN npm ls @crawlee/core apify puppeteer playwright

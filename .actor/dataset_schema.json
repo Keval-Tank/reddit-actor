@@ -6,15 +6,15 @@
         "overview": {
             "title": "Overview",
             "transformation": {
-                "fields": ["query", "fetchedAt", "statusCode", "rawRss"]
+                "fields": ["query", "fetchedAt", "initialStatus", "rawJson"]
             },
             "display": {
                 "component": "table",
                 "properties": {
                     "query": { "label": "Query", "format": "text" },
                     "fetchedAt": { "label": "Fetched At", "format": "date" },
-                    "statusCode": { "label": "Status", "format": "number" },
-                    "rawRss": { "label": "Raw RSS", "format": "text" }
+                    "initialStatus": { "label": "Initial Status", "format": "number" },
+                    "rawJson": { "label": "Raw JSON", "format": "text" }
                 }
             }
         }

@@ -1,5 +1,7 @@
 // Crawlee - web scraping and browser automation library (Read more at https://crawlee.dev)
-import { CheerioCrawler } from '@crawlee/cheerio';
+// --- RSS approach (kept for reference, disabled) ---
+// import { CheerioCrawler } from '@crawlee/cheerio';
+import { PlaywrightCrawler } from '@crawlee/playwright';
 // Apify SDK - toolkit for building Apify Actors (Read more at https://docs.apify.com/sdk/js/)
 import { Actor, log } from 'apify';
 
@@ -11,8 +13,9 @@ interface Input {
     query: string;
 }
 
+// --- RSS approach (kept for reference, disabled) ---
 // Reddit blocks default library User-Agents, so we send an honest, descriptive one.
-const USER_AGENT = 'reddit-search-scraper/1.0';
+// const USER_AGENT = 'reddit-search-scraper/1.0';
 
 // The init() call wires the Actor into the Apify-provided environment (storage, etc.).
 await Actor.init();
@@ -24,9 +27,14 @@ if (typeof query !== 'string' || query.trim().length === 0) {
     throw new Error('Input "query" is required and must be a non-empty string.');
 }
 
+// --- RSS approach (kept for reference, disabled) ---
 // Fixed endpoint — nothing added on top of this.
-const searchUrl = `https://www.reddit.com/search.rss?q=${encodeURIComponent(query)}&sort=new&type=link`;
-log.info(`Reddit RSS search URL: ${searchUrl}`);
+// const searchUrl = `https://www.reddit.com/search.rss?q=${encodeURIComponent(query)}&sort=new&type=link`;
+// log.info(`Reddit RSS search URL: ${searchUrl}`);
+
+// Headless JSON endpoint — the single request we are validating.
+const jsonUrl = `https://old.reddit.com/search.json?q=${encodeURIComponent(query)}&sort=new&type=link`;
+log.info(`Reddit JSON search URL: ${jsonUrl}`);
 
 // Apify proxy. Each run is a fresh process, so it gets a fresh session and therefore a fresh
 // exit IP from the proxy pool — that's what rotates IPs across runs. On a free account without
@@ -38,27 +46,48 @@ const proxyConfiguration = await Actor.createProxyConfiguration({
     // groups: ['RESIDENTIAL']
 });
 
-const crawler = new CheerioCrawler({
+// --- RSS approach (kept for reference, disabled) ---
+// const crawler = new CheerioCrawler({
+//     proxyConfiguration,
+//     // Keep the session pool ON: the run gets one sticky IP, so the in-handler ipify call and the
+//     // Reddit request go out through the SAME IP — making the logged egress IP the real IP Reddit saw.
+//     useSessionPool: true,
+//     maxRequestsPerCrawl: 1,
+//     // CheerioCrawler refuses non-HTML content types by default; Reddit RSS is application/atom+xml.
+//     additionalMimeTypes: ['application/atom+xml', 'application/rss+xml', 'application/xml', 'text/xml'],
+//     // Set our descriptive User-Agent right before the request is sent.
+//     preNavigationHooks: [
+//         async (_crawlingContext, gotOptions) => {
+//             gotOptions.headers = {
+//                 ...gotOptions.headers,
+//                 'User-Agent': USER_AGENT,
+//             };
+//         },
+//     ],
+//     requestHandler: router,
+// });
+//
+// await crawler.run([{ url: searchUrl, userData: { query } }]);
+
+// Headless approach: PlaywrightCrawler drives real Chromium, so Reddit's edge mints token_v2
+// inline on a single navigation — no warm-up. We keep it to exactly one request so the run
+// faithfully validates the "single request" hypothesis.
+const crawler = new PlaywrightCrawler({
     proxyConfiguration,
-    // Keep the session pool ON: the run gets one sticky IP, so the in-handler ipify call and the
-    // Reddit request go out through the SAME IP — making the logged egress IP the real IP Reddit saw.
+    // One sticky IP for the run, so the logged egress IP is the IP Reddit actually saw.
     useSessionPool: true,
     maxRequestsPerCrawl: 1,
-    // CheerioCrawler refuses non-HTML content types by default; Reddit RSS is application/atom+xml.
-    additionalMimeTypes: ['application/atom+xml', 'application/rss+xml', 'application/xml', 'text/xml'],
-    // Set our descriptive User-Agent right before the request is sent.
-    preNavigationHooks: [
-        async (_crawlingContext, gotOptions) => {
-            gotOptions.headers = {
-                ...gotOptions.headers,
-                'User-Agent': USER_AGENT,
-            };
-        },
-    ],
+    maxConcurrency: 1,
+    // A genuine single request: no retries, and don't treat a 403 as "blocked" and rotate —
+    // we want the handler to run on 403 so we can read the (possibly self-resolving) body.
+    maxRequestRetries: 0,
+    retryOnBlocked: false,
+    // Leave Crawlee's fingerprint injection ON (default) and use no custom User-Agent —
+    // the real browser fingerprint is the whole point.
     requestHandler: router,
 });
 
-await crawler.run([{ url: searchUrl, userData: { query } }]);
+await crawler.run([{ url: jsonUrl, userData: { query, jsonUrl } }]);
 
 // Gracefully exit the Actor process.
 await Actor.exit();
