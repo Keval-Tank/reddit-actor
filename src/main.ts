@@ -74,6 +74,15 @@ const proxyConfiguration = await Actor.createProxyConfiguration({
 // faithfully validates the "single request" hypothesis.
 const crawler = new PlaywrightCrawler({
     proxyConfiguration,
+    // EXPERIMENT: force HEADLESS, branded Google CHROME instead of the default headful-under-Xvfb.
+    // - headless: true  -> Chromium's new headless mode (--headless=new), modern "headless Chrome".
+    // - channel: 'chrome' -> launch the BRANDED Google Chrome installed in the
+    //   apify/actor-node-playwright-chrome image (not Playwright's bundled Chromium).
+    // Expectation: this still won't fix the 403 (the blocker is the missing token_v2 on a cold
+    // hit, not the fingerprint) — it's a comparison data point.
+    launchContext: {
+        launchOptions: { headless: true, channel: 'chrome' },
+    },
     // One sticky IP for the run, so the logged egress IP is the IP Reddit actually saw.
     useSessionPool: true,
     maxRequestsPerCrawl: 1,
