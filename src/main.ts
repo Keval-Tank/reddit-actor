@@ -80,7 +80,8 @@ const proxyConfiguration = await Actor.createProxyConfiguration({
 const crawler = new PlaywrightCrawler({
     launchContext : {
         launchOptions : {
-            headless : true
+            headless : true,
+            channel : 'chrome'
         }
     },
     proxyConfiguration,
