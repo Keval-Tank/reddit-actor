@@ -43,7 +43,7 @@ log.info(`Reddit JSON search URL: ${jsonUrl}`);
 // will not reset across runs).
 const proxyConfiguration = await Actor.createProxyConfiguration({
     checkAccess: true,
-    // groups: ['RESIDENTIAL']
+    groups: ['RESIDENTIAL']
 });
 
 // --- RSS approach (kept for reference, disabled) ---
