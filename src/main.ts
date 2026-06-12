@@ -36,7 +36,7 @@ if (typeof query !== 'string' || query.trim().length === 0) {
 // We load this FIRST so the browser context holds the token before we hit the JSON endpoint.
 const warmupUrl = 'https://www.reddit.com/';
 // JSON data endpoint — fetched as a second navigation inside the handler, after warm-up.
-const jsonUrl = `https://old.reddit.com/search.json?q=${encodeURIComponent(query)}&sort=new&type=link`;
+const jsonUrl = `https://reddit.com/search.json?q=${encodeURIComponent(query)}&sort=new&type=link`;
 log.info(`Warm-up URL: ${warmupUrl}`);
 log.info(`Reddit JSON search URL: ${jsonUrl}`);
 
