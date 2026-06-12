@@ -78,6 +78,11 @@ const proxyConfiguration = await Actor.createProxyConfiguration({
 // cookie attached. Headful-under-Xvfb (the image default) is kept — it's the strongest fingerprint
 // and mirrors the residential-incognito conditions that worked.
 const crawler = new PlaywrightCrawler({
+    launchContext : {
+        launchOptions : {
+            headless : true
+        }
+    },
     proxyConfiguration,
     // One sticky IP for the run, so the logged egress IP is the IP Reddit actually saw.
     useSessionPool: true,
