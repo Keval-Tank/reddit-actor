@@ -78,10 +78,14 @@ const crawler = new PlaywrightCrawler({
     useSessionPool: true,
     maxRequestsPerCrawl: 1,
     maxConcurrency: 1,
-    // A genuine single request: no retries, and don't treat a 403 as "blocked" and rotate —
-    // we want the handler to run on 403 so we can read the (possibly self-resolving) body.
+    // A genuine single request: no retries.
     maxRequestRetries: 0,
     retryOnBlocked: false,
+    // CRITICAL for this probe: by default the session pool treats 401/403/429 as "blocked" and
+    // THROWS before our handler runs — which is why the first runs failed with no diagnostics.
+    // Emptying blockedStatusCodes lets the handler execute on a 403 so we can read the actual
+    // body, the egress IP, and whether token_v2 minted instead of flying blind.
+    sessionPoolOptions: { blockedStatusCodes: [] },
     // Leave Crawlee's fingerprint injection ON (default) and use no custom User-Agent —
     // the real browser fingerprint is the whole point.
     requestHandler: router,
