@@ -3,7 +3,7 @@ import { Actor, log } from 'apify';
 
 export const router = createPlaywrightRouter();
 
-router.addDefaultHandler(async ({ page, request, response }) => {
+router.addDefaultHandler(async ({ page, request, response, pushData }) => {
     // Status of the very first navigation. A working request may surface here as a 403 challenge
     // that the page's JS instantly resolves — so this is diagnostic only, not the success signal.
     const initialStatus = response?.status() ?? null;
