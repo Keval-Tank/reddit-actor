@@ -6,14 +6,15 @@
         "overview": {
             "title": "Overview",
             "transformation": {
-                "fields": ["query", "fetchedAt", "initialStatus", "rawJson"]
+                "fields": ["query", "fetchedAt", "warmupStatus", "initialStatus", "rawJson"]
             },
             "display": {
                 "component": "table",
                 "properties": {
                     "query": { "label": "Query", "format": "text" },
                     "fetchedAt": { "label": "Fetched At", "format": "date" },
-                    "initialStatus": { "label": "Initial Status", "format": "number" },
+                    "warmupStatus": { "label": "Warm-up Status", "format": "number" },
+                    "initialStatus": { "label": "JSON Status", "format": "number" },
                     "rawJson": { "label": "Raw JSON", "format": "text" }
                 }
             }

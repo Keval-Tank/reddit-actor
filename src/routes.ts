@@ -4,22 +4,38 @@ import { Actor, log } from 'apify';
 export const router = createPlaywrightRouter();
 
 router.addDefaultHandler(async ({ page, request, response, pushData }) => {
-    // Status of the very first navigation. A working request may surface here as a 403 challenge
-    // that the page's JS instantly resolves — so this is diagnostic only, not the success signal.
-    const initialStatus = response?.status() ?? null;
+    const { query, jsonUrl } = request.userData as { query: string; warmupUrl: string; jsonUrl: string };
 
-    // Let any inline token handshake / JS settle, then read the FINAL rendered body.
+    // --- Stage 1: warm-up ---
+    // The start URL is the Reddit app page; Crawlee already navigated to it, so `response` is that
+    // warm-up page's navigation response. Its JS mints token_v2 asynchronously after load.
+    const warmupStatus = response?.status() ?? null;
+    log.info(`Warm-up page loaded (${request.url}) status ${warmupStatus}; waiting for token_v2 to mint...`);
+
+    // Let the app JS run (it mints token_v2 asynchronously).
     try {
         await page.waitForLoadState('networkidle', { timeout: 15_000 });
     } catch {
-        // networkidle can time out on a busy/streaming page — proceed with whatever rendered.
+        // networkidle can time out on a busy page — proceed; the cookie poll below is the real wait.
     }
 
-    // When Chromium renders a JSON document it shows the raw text in <body>, so innerText is the body.
-    const finalBody = await page.evaluate(() => document.body.innerText);
+    // Poll for the token_v2 cookie, which the app mints asynchronously after load.
+    let tokenMinted = false;
+    const deadline = Date.now() + 15_000;
+    while (Date.now() < deadline) {
+        const cookies = await page.context().cookies();
+        if (cookies.some((c) => c.name === 'token_v2')) {
+            tokenMinted = true;
+            break;
+        }
+        await page.waitForTimeout(500);
+    }
+    log.info(`token_v2 minted during warm-up: ${tokenMinted}`);
 
-    // Did the edge mint the logged-out session token during this single navigation?
-    const tokenMinted = (await page.context().cookies()).some((c) => c.name === 'token_v2');
+    // --- Stage 2: fetch the JSON in the SAME context (token cookie auto-attaches) ---
+    const jsonResp = await page.goto(jsonUrl, { waitUntil: 'domcontentloaded' });
+    const initialStatus = jsonResp?.status() ?? null;
+    const rawJson = (await jsonResp?.text()) ?? '';
 
     // Best-effort egress IP (ipify returns Access-Control-Allow-Origin: *, so an in-page fetch is fine).
     let egressIp: string | null = null;
@@ -36,34 +52,36 @@ router.addDefaultHandler(async ({ page, request, response, pushData }) => {
     // Try to parse the body as Reddit listing JSON. postCount > 0 == the route is validated.
     let postCount: number | null = null;
     try {
-        const parsed = JSON.parse(finalBody);
+        const parsed = JSON.parse(rawJson);
         postCount = Array.isArray(parsed?.data?.children) ? parsed.data.children.length : null;
     } catch {
         // Non-JSON body (e.g. a 403 block page) — leave postCount null.
     }
 
     const diagnostics = {
-        query: request.userData.query as string,
-        jsonUrl: request.userData.jsonUrl as string,
+        query,
+        jsonUrl,
         fetchedAt: new Date().toISOString(),
-        initialStatus,
+        warmupStatus,
         tokenMinted,
+        initialStatus,
         egressIp,
-        bodyLength: finalBody.length,
+        bodyLength: rawJson.length,
         postCount,
     };
 
-    log.info('Reddit JSON headless probe diagnostics', diagnostics);
+    log.info('Reddit JSON warm-up probe diagnostics', diagnostics);
 
     // Persist the probe evidence so it is reviewable in the Console after the run.
     await Actor.setValue('HEADLESS_PROBE_LOG', diagnostics);
 
-    // Store the full final body as-is (the raw JSON when it works, the block page when it doesn't).
+    // Store the full JSON body as-is (the raw JSON when it works, the block page when it doesn't).
     await pushData({
-        query: diagnostics.query,
-        jsonUrl: diagnostics.jsonUrl,
+        query,
+        jsonUrl,
         fetchedAt: diagnostics.fetchedAt,
-        initialStatus: diagnostics.initialStatus,
-        rawJson: finalBody,
+        warmupStatus,
+        initialStatus,
+        rawJson,
     });
 });

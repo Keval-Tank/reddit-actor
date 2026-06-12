@@ -32,8 +32,12 @@ if (typeof query !== 'string' || query.trim().length === 0) {
 // const searchUrl = `https://www.reddit.com/search.rss?q=${encodeURIComponent(query)}&sort=new&type=link`;
 // log.info(`Reddit RSS search URL: ${searchUrl}`);
 
-// Headless JSON endpoint — the single request we are validating.
+// Warm-up page — a real Reddit app page whose JS mints the token_v2 session cookie.
+// We load this FIRST so the browser context holds the token before we hit the JSON endpoint.
+const warmupUrl = 'https://www.reddit.com/';
+// JSON data endpoint — fetched as a second navigation inside the handler, after warm-up.
 const jsonUrl = `https://old.reddit.com/search.json?q=${encodeURIComponent(query)}&sort=new&type=link`;
+log.info(`Warm-up URL: ${warmupUrl}`);
 log.info(`Reddit JSON search URL: ${jsonUrl}`);
 
 // Apify proxy. Each run is a fresh process, so it gets a fresh session and therefore a fresh
@@ -69,20 +73,12 @@ const proxyConfiguration = await Actor.createProxyConfiguration({
 //
 // await crawler.run([{ url: searchUrl, userData: { query } }]);
 
-// Headless approach: PlaywrightCrawler drives real Chromium, so Reddit's edge mints token_v2
-// inline on a single navigation — no warm-up. We keep it to exactly one request so the run
-// faithfully validates the "single request" hypothesis.
+// Warm-up approach: PlaywrightCrawler navigates to a real Reddit app page first (warmupUrl) so
+// its JS mints token_v2, THEN the handler fetches the JSON endpoint in the same context with the
+// cookie attached. Headful-under-Xvfb (the image default) is kept — it's the strongest fingerprint
+// and mirrors the residential-incognito conditions that worked.
 const crawler = new PlaywrightCrawler({
     proxyConfiguration,
-    // EXPERIMENT: force HEADLESS, branded Google CHROME instead of the default headful-under-Xvfb.
-    // - headless: true  -> Chromium's new headless mode (--headless=new), modern "headless Chrome".
-    // - channel: 'chrome' -> launch the BRANDED Google Chrome installed in the
-    //   apify/actor-node-playwright-chrome image (not Playwright's bundled Chromium).
-    // Expectation: this still won't fix the 403 (the blocker is the missing token_v2 on a cold
-    // hit, not the fingerprint) — it's a comparison data point.
-    launchContext: {
-        launchOptions: { headless: true, channel: 'chrome' },
-    },
     // One sticky IP for the run, so the logged egress IP is the IP Reddit actually saw.
     useSessionPool: true,
     maxRequestsPerCrawl: 1,
@@ -100,7 +96,7 @@ const crawler = new PlaywrightCrawler({
     requestHandler: router,
 });
 
-await crawler.run([{ url: jsonUrl, userData: { query, jsonUrl } }]);
+await crawler.run([{ url: warmupUrl, userData: { query, warmupUrl, jsonUrl } }]);
 
 // Gracefully exit the Actor process.
 await Actor.exit();
