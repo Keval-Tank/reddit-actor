@@ -1,0 +1,663 @@
+{
+  "feed": {
+    "title": "reddit.com: search results - looking for python developer",
+    "id": "/search.rss?type=posts&sort=relevance&t=day&q=looking+for+python+developer",
+    "updated": "2026-06-13T10:14:37+00:00",
+    "category": {
+      "term": "reddit.com",
+      "label": "r/ reddit.com"
+    },
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://www.reddit.com/search.rss?type=posts&sort=relevance&t=day&q=looking+for+python+developer",
+        "type": "application/atom+xml"
+      },
+      {
+        "rel": "alternate",
+        "href": "https://www.reddit.com/search?type=posts&sort=relevance&t=day&q=looking+for+python+developer",
+        "type": "text/html"
+      }
+    ]
+  },
+  "entryCount": 25,
+  "entries": [
+    {
+      "id": "t5_2zo0t",
+      "kind": "t5",
+      "type": "subreddit",
+      "title": "Python jobs, python job offers",
+      "link": "https://www.reddit.com/r/PythonJobs/",
+      "published": null,
+      "updated": "2014-01-06T18:29:38+00:00",
+      "author": {
+        "name": "/u/AwesomeRecruiter",
+        "username": "AwesomeRecruiter",
+        "uri": "https://www.reddit.com/user/AwesomeRecruiter"
+      },
+      "subreddit": null,
+      "thumbnail": null,
+      "bodyHtml": "<div> Python jobs are posted here </div>",
+      "bodyText": "Python jobs are posted here",
+      "externalUrl": "https://www.reddit.com/r/PythonJobs/",
+      "commentsUrl": null,
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<div> Python jobs are posted here </div> <div> <a href=\"https://www.reddit.com/r/PythonJobs/\">[link]</a> </div>"
+    },
+    {
+      "id": "t5_2s1s3",
+      "kind": "t5",
+      "type": "subreddit",
+      "title": "Flask",
+      "link": "https://www.reddit.com/r/flask/",
+      "published": null,
+      "updated": "2010-08-19T23:59:20+00:00",
+      "author": {
+        "name": "/u/alaskamiller",
+        "username": "alaskamiller",
+        "uri": "https://www.reddit.com/user/alaskamiller"
+      },
+      "subreddit": null,
+      "thumbnail": null,
+      "bodyHtml": "<div> Flask is a Python micro-framework for web development. Flask is easy to get started with and a great way to build websites and web applications. </div>",
+      "bodyText": "Flask is a Python micro-framework for web development. Flask is easy to get started with and a great way to build websites and web applications.",
+      "externalUrl": "https://www.reddit.com/r/flask/",
+      "commentsUrl": null,
+      "imageUrl": "https://f.thumbs.redditmedia.com/oDj33kXzb6vudqFM.png",
+      "contentType": "html",
+      "contentHtml": "<img src=\"https://f.thumbs.redditmedia.com/oDj33kXzb6vudqFM.png\" /> <div> Flask is a Python micro-framework for web development. Flask is easy to get started with and a great way to build websites and web applications. </div> <div> <a href=\"https://www.reddit.com/r/flask/\">[link]</a> </div>"
+    },
+    {
+      "id": "t5_2qh0y",
+      "kind": "t5",
+      "type": "subreddit",
+      "title": "Python",
+      "link": "https://www.reddit.com/r/Python/",
+      "published": null,
+      "updated": "2008-01-25T03:14:39+00:00",
+      "author": null,
+      "subreddit": null,
+      "thumbnail": null,
+      "bodyHtml": "<div> The largest Python community for Reddit! Stay up to date with the latest news, packages, and meta information relating to the Python programming language. --- If you have questions or are new to Python use r/LearnPython </div>",
+      "bodyText": "The largest Python community for Reddit! Stay up to date with the latest news, packages, and meta information relating to the Python programming language. --- If you have questions or are new to Python use r/LearnPython",
+      "externalUrl": "https://www.reddit.com/r/Python/",
+      "commentsUrl": null,
+      "imageUrl": "https://b.thumbs.redditmedia.com/8HiO52_EuT_h63Qg.png",
+      "contentType": "html",
+      "contentHtml": "<img src=\"https://b.thumbs.redditmedia.com/8HiO52_EuT_h63Qg.png\" /> <div> The largest Python community for Reddit! Stay up to date with the latest news, packages, and meta information relating to the Python programming language. --- If you have questions or are new to Python use r/LearnPython </div> <div> <a href=\"https://www.reddit.com/r/Python/\">[link]</a> </div>"
+    },
+    {
+      "id": "t3_1u4gd3x",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for people interested in building a SimCity 3000-style city builder in Python",
+      "link": "https://www.reddit.com/r/ProgrammingBuddies/comments/1u4gd3x/looking_for_people_interested_in_building_a/",
+      "published": "2026-06-13T03:43:45+00:00",
+      "updated": "2026-06-13T03:43:45+00:00",
+      "author": {
+        "name": "/u/ElkBright6060",
+        "username": "ElkBright6060",
+        "uri": "https://www.reddit.com/user/ElkBright6060"
+      },
+      "subreddit": {
+        "term": "ProgrammingBuddies",
+        "label": "r/ProgrammingBuddies"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Hey everyone,<br/> I’m a software development student and I’ve been working on Python projects to improve my skills. One project I’d really like to tackle is building a city builder inspired by SimCity 3000.</p> <p>The goal isn’t to make a commercial game. It’s more about learning game development, software architecture, AI systems, pathfinding, economy simulation, and working with a team on a long-term project.</p> <p>I’m still learning so looking for beginner/intermediate skill level. Please comment or dm if interested </p> </div>",
+      "bodyText": "Hey everyone, I’m a software development student and I’ve been working on Python projects to improve my skills. One project I’d really like to tackle is building a city builder inspired by SimCity 3000. The goal isn’t to make a commercial game. It’s more about learning game development, software architecture, AI systems, pathfinding, economy simulation, and working with a team on a long-term project. I’m still learning so looking for beginner/intermediate skill level. Please comment or dm if interested",
+      "externalUrl": "https://www.reddit.com/r/ProgrammingBuddies/comments/1u4gd3x/looking_for_people_interested_in_building_a/",
+      "commentsUrl": "https://www.reddit.com/r/ProgrammingBuddies/comments/1u4gd3x/looking_for_people_interested_in_building_a/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,<br/> I’m a software development student and I’ve been working on Python projects to improve my skills. One project I’d really like to tackle is building a city builder inspired by SimCity 3000.</p> <p>The goal isn’t to make a commercial game. It’s more about learning game development, software architecture, AI systems, pathfinding, economy simulation, and working with a team on a long-term project.</p> <p>I’m still learning so looking for beginner/intermediate skill level. Please comment or dm if interested </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ElkBright6060\"> /u/ElkBright6060 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/ProgrammingBuddies/\"> r/ProgrammingBuddies </a> <br/> <span><a href=\"https://www.reddit.com/r/ProgrammingBuddies/comments/1u4gd3x/looking_for_people_interested_in_building_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ProgrammingBuddies/comments/1u4gd3x/looking_for_people_interested_in_building_a/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3vgnh",
+      "kind": "t3",
+      "type": "post",
+      "title": "Desperately Looking for Startup Opportunities as a Software Developer Intern",
+      "link": "https://www.reddit.com/r/indianstartups/comments/1u3vgnh/desperately_looking_for_startup_opportunities_as/",
+      "published": "2026-06-12T13:35:06+00:00",
+      "updated": "2026-06-12T13:35:06+00:00",
+      "author": {
+        "name": "/u/Waste-Calendar-5987",
+        "username": "Waste-Calendar-5987",
+        "uri": "https://www.reddit.com/user/Waste-Calendar-5987"
+      },
+      "subreddit": {
+        "term": "indianstartups",
+        "label": "r/indianstartups"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Hey everyone,<br/> I&#39;m a final year B.Tech CSE student and I&#39;ve been applying for internships/jobs for the past few weeks but haven&#39;t had much luck yet.<br/> I know startups usually value people who are willing to learn and get things done, so I thought I&#39;d post here.<br/> I mainly work with Java, Python, HTML/CSS/JavaScript, SQL and Git. I&#39;ve also built a few web and AI based projects during college and I&#39;m always ready to pick up new tech if the work requires it.<br/> I&#39;m looking for an internship or an entry level developer role (backend, full stack or software development). Remote would be ideal, but I&#39;m open to relocating if it&#39;s a good opportunity.<br/> If your startup is hiring, or if you know someone who is, I&#39;d really appreciate a chance to interview. Happy to share my resume and project links over DM.</p> </div>",
+      "bodyText": "Hey everyone, I'm a final year B.Tech CSE student and I've been applying for internships/jobs for the past few weeks but haven't had much luck yet. I know startups usually value people who are willing to learn and get things done, so I thought I'd post here. I mainly work with Java, Python, HTML/CSS/JavaScript, SQL and Git. I've also built a few web and AI based projects during college and I'm always ready to pick up new tech if the work requires it. I'm looking for an internship or an entry level developer role (backend, full stack or software development). Remote would be ideal, but I'm open to relocating if it's a good opportunity. If your startup is hiring, or if you know someone who is, I'd really appreciate a chance to interview. Happy to share my resume and project links over DM.",
+      "externalUrl": "https://www.reddit.com/r/indianstartups/comments/1u3vgnh/desperately_looking_for_startup_opportunities_as/",
+      "commentsUrl": "https://www.reddit.com/r/indianstartups/comments/1u3vgnh/desperately_looking_for_startup_opportunities_as/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,<br/> I&#39;m a final year B.Tech CSE student and I&#39;ve been applying for internships/jobs for the past few weeks but haven&#39;t had much luck yet.<br/> I know startups usually value people who are willing to learn and get things done, so I thought I&#39;d post here.<br/> I mainly work with Java, Python, HTML/CSS/JavaScript, SQL and Git. I&#39;ve also built a few web and AI based projects during college and I&#39;m always ready to pick up new tech if the work requires it.<br/> I&#39;m looking for an internship or an entry level developer role (backend, full stack or software development). Remote would be ideal, but I&#39;m open to relocating if it&#39;s a good opportunity.<br/> If your startup is hiring, or if you know someone who is, I&#39;d really appreciate a chance to interview. Happy to share my resume and project links over DM.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Waste-Calendar-5987\"> /u/Waste-Calendar-5987 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/indianstartups/\"> r/indianstartups </a> <br/> <span><a href=\"https://www.reddit.com/r/indianstartups/comments/1u3vgnh/desperately_looking_for_startup_opportunities_as/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/indianstartups/comments/1u3vgnh/desperately_looking_for_startup_opportunities_as/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3x511",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for Referrals | Recent Graduate with 2 Years of Paid Internship Experience in Full Stack & Software Development",
+      "link": "https://www.reddit.com/r/chennaihiring/comments/1u3x511/looking_for_referrals_recent_graduate_with_2/",
+      "published": "2026-06-12T14:38:40+00:00",
+      "updated": "2026-06-12T14:38:40+00:00",
+      "author": {
+        "name": "/u/r4mji_24",
+        "username": "r4mji_24",
+        "uri": "https://www.reddit.com/user/r4mji_24"
+      },
+      "subreddit": {
+        "term": "chennaihiring",
+        "label": "r/chennaihiring"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div>",
+      "bodyText": "I'm a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role I have around 2 years of paid internship where I worked on Frontend: Angular, TypeScript Backend: Node.js, NestJS, Python Databases: PostgreSQL, SQL also i've worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML I'm an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles. If your company is hiring or if you can provide a referral, I would be extremely grateful. I can share my resume if needed",
+      "externalUrl": "https://www.reddit.com/r/chennaihiring/comments/1u3x511/looking_for_referrals_recent_graduate_with_2/",
+      "commentsUrl": "https://www.reddit.com/r/chennaihiring/comments/1u3x511/looking_for_referrals_recent_graduate_with_2/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/r4mji_24\"> /u/r4mji_24 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/chennaihiring/\"> r/chennaihiring </a> <br/> <span><a href=\"https://www.reddit.com/r/chennaihiring/comments/1u3x511/looking_for_referrals_recent_graduate_with_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/chennaihiring/comments/1u3x511/looking_for_referrals_recent_graduate_with_2/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u4eajq",
+      "kind": "t3",
+      "type": "post",
+      "title": "[0 YoE] June 2025 Computer Science graduated looking for software development jobs. No interviews in 6+ months.",
+      "link": "https://www.reddit.com/r/EngineeringResumes/comments/1u4eajq/0_yoe_june_2025_computer_science_graduated/",
+      "published": "2026-06-13T02:00:41+00:00",
+      "updated": "2026-06-13T02:00:41+00:00",
+      "author": {
+        "name": "/u/scottieg123",
+        "username": "scottieg123",
+        "uri": "https://www.reddit.com/user/scottieg123"
+      },
+      "subreddit": {
+        "term": "EngineeringResumes",
+        "label": "r/EngineeringResumes"
+      },
+      "thumbnail": "https://preview.redd.it/g231ncuwiy6h1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=ba851485be12cf70ab04121be27a2b89be413514",
+      "bodyHtml": "<div class=\"md\"><p>So I graduated in June 2025. I am targeting software developer jobs. I&#39;ll pretty much take anything technical. I am applying to mainly jobs in the Greater Toronto Area but also applying to jobs across Canada. Should have been applying during the school year didn&#39;t really expect it to be this bad. Basically during the first few months after graduating I got a few interviews and even been to the final round of one but didn&#39;t get it. Ever since it has been nothing. Just really want to know why my resume might not be sticking out. I have gotten comments about the 5 internships. My school has a co-op program. Basically we were required to have at least 4 work terms. I feel like it was easier then to get something then but a lot of these companies weren&#39;t even hiring students after for ft. Company 1 on my resume I thought I had a good chance at returning but they experienced massive layoffs and just weren&#39;t hiring. Also wondering if it might be a good idea to remove my oldest experience and replace it with another project. That was my first co-op and didn&#39;t really do much there and honestly can&#39;t remember much from it. I guess I could lie but don&#39;t feel comfortable doing that. </p> <p><a href=\"https://preview.redd.it/g231ncuwiy6h1.png?width=5100&amp;format=png&amp;auto=webp&amp;s=b1a55c7aa3cd5469dba14c745e6541a20d86f1e0\">https://preview.redd.it/g231ncuwiy6h1.png?width=5100&amp;format=png&amp;auto=webp&amp;s=b1a55c7aa3cd5469dba14c745e6541a20d86f1e0</a></p> </div>",
+      "bodyText": "So I graduated in June 2025. I am targeting software developer jobs. I'll pretty much take anything technical. I am applying to mainly jobs in the Greater Toronto Area but also applying to jobs across Canada. Should have been applying during the school year didn't really expect it to be this bad. Basically during the first few months after graduating I got a few interviews and even been to the final round of one but didn't get it. Ever since it has been nothing. Just really want to know why my resume might not be sticking out. I have gotten comments about the 5 internships. My school has a co-op program. Basically we were required to have at least 4 work terms. I feel like it was easier then to get something then but a lot of these companies weren't even hiring students after for ft. Company 1 on my resume I thought I had a good chance at returning but they experienced massive layoffs and just weren't hiring. Also wondering if it might be a good idea to remove my oldest experience and replace it with another project. That was my first co-op and didn't really do much there and honestly can't remember much from it. I guess I could lie but don't feel comfortable doing that. https://preview.redd.it/g231ncuwiy6h1.png?width=5100&format=png&auto=webp&s=b1a55c7aa3cd5469dba14c745e6541a20d86f1e0",
+      "externalUrl": "https://www.reddit.com/r/EngineeringResumes/comments/1u4eajq/0_yoe_june_2025_computer_science_graduated/",
+      "commentsUrl": "https://www.reddit.com/r/EngineeringResumes/comments/1u4eajq/0_yoe_june_2025_computer_science_graduated/",
+      "imageUrl": "https://preview.redd.it/g231ncuwiy6h1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=ba851485be12cf70ab04121be27a2b89be413514",
+      "contentType": "html",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/EngineeringResumes/comments/1u4eajq/0_yoe_june_2025_computer_science_graduated/\"> <img src=\"https://preview.redd.it/g231ncuwiy6h1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=ba851485be12cf70ab04121be27a2b89be413514\" alt=\"[0 YoE] June 2025 Computer Science graduated looking for software development jobs. No interviews in 6+ months.\" title=\"[0 YoE] June 2025 Computer Science graduated looking for software development jobs. No interviews in 6+ months.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>So I graduated in June 2025. I am targeting software developer jobs. I&#39;ll pretty much take anything technical. I am applying to mainly jobs in the Greater Toronto Area but also applying to jobs across Canada. Should have been applying during the school year didn&#39;t really expect it to be this bad. Basically during the first few months after graduating I got a few interviews and even been to the final round of one but didn&#39;t get it. Ever since it has been nothing. Just really want to know why my resume might not be sticking out. I have gotten comments about the 5 internships. My school has a co-op program. Basically we were required to have at least 4 work terms. I feel like it was easier then to get something then but a lot of these companies weren&#39;t even hiring students after for ft. Company 1 on my resume I thought I had a good chance at returning but they experienced massive layoffs and just weren&#39;t hiring. Also wondering if it might be a good idea to remove my oldest experience and replace it with another project. That was my first co-op and didn&#39;t really do much there and honestly can&#39;t remember much from it. I guess I could lie but don&#39;t feel comfortable doing that. </p> <p><a href=\"https://preview.redd.it/g231ncuwiy6h1.png?width=5100&amp;format=png&amp;auto=webp&amp;s=b1a55c7aa3cd5469dba14c745e6541a20d86f1e0\">https://preview.redd.it/g231ncuwiy6h1.png?width=5100&amp;format=png&amp;auto=webp&amp;s=b1a55c7aa3cd5469dba14c745e6541a20d86f1e0</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/scottieg123\"> /u/scottieg123 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/EngineeringResumes/\"> r/EngineeringResumes </a> <br/> <span><a href=\"https://www.reddit.com/r/EngineeringResumes/comments/1u4eajq/0_yoe_june_2025_computer_science_graduated/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/EngineeringResumes/comments/1u4eajq/0_yoe_june_2025_computer_science_graduated/\">[comments]</a></span> </td></tr></table>"
+    },
+    {
+      "id": "t3_1u3vawv",
+      "kind": "t3",
+      "type": "post",
+      "title": "[For Hire] Backend Python Developer — Part-Time / Contract",
+      "link": "https://www.reddit.com/r/remotebackendjobs/comments/1u3vawv/for_hire_backend_python_developer_parttime/",
+      "published": "2026-06-12T13:28:32+00:00",
+      "updated": "2026-06-12T13:28:32+00:00",
+      "author": {
+        "name": "/u/maou-_-",
+        "username": "maou-_-",
+        "uri": "https://www.reddit.com/user/maou-_-"
+      },
+      "subreddit": {
+        "term": "remotebackendjobs",
+        "label": "r/remotebackendjobs"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Backend Python developer looking for part-time or contract work (10-20 hrs/week). Currently employed full-time but available evenings and weekends.</p> <p>What I bring:</p> <p>- 2 years of experience as a solo developer building production internal tools</p> <p>- AI/ML integration: resume parsing, candidate scoring, and matching using LLM APIs (Gemini, OpenAI-compatible)</p> <p>- Real-time features: WebSocket audio pipelines, background job queues with Redis</p> <p>- Deployment: Linux VPS, Nginx, systemd services, Cloudflare</p> <p>Tech stack: Python, FastAPI, PostgreSQL, Redis, Supabase, REST APIs, LLM integration</p> <p>What I&#39;m looking for:</p> <p>- Backend Python work APIs, data pipelines, integrations</p> <p>- Part-time / contract / project-based</p> <p>- Remote only</p> <p>- Open to short trial periods</p> <p>Timezone: GMT+3 (available evenings/weekends)</p> <p>DM me or comment if you have something that fits.</p> </div>",
+      "bodyText": "Backend Python developer looking for part-time or contract work (10-20 hrs/week). Currently employed full-time but available evenings and weekends. What I bring: - 2 years of experience as a solo developer building production internal tools - AI/ML integration: resume parsing, candidate scoring, and matching using LLM APIs (Gemini, OpenAI-compatible) - Real-time features: WebSocket audio pipelines, background job queues with Redis - Deployment: Linux VPS, Nginx, systemd services, Cloudflare Tech stack: Python, FastAPI, PostgreSQL, Redis, Supabase, REST APIs, LLM integration What I'm looking for: - Backend Python work APIs, data pipelines, integrations - Part-time / contract / project-based - Remote only - Open to short trial periods Timezone: GMT+3 (available evenings/weekends) DM me or comment if you have something that fits.",
+      "externalUrl": "https://www.reddit.com/r/remotebackendjobs/comments/1u3vawv/for_hire_backend_python_developer_parttime/",
+      "commentsUrl": "https://www.reddit.com/r/remotebackendjobs/comments/1u3vawv/for_hire_backend_python_developer_parttime/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Backend Python developer looking for part-time or contract work (10-20 hrs/week). Currently employed full-time but available evenings and weekends.</p> <p>What I bring:</p> <p>- 2 years of experience as a solo developer building production internal tools</p> <p>- AI/ML integration: resume parsing, candidate scoring, and matching using LLM APIs (Gemini, OpenAI-compatible)</p> <p>- Real-time features: WebSocket audio pipelines, background job queues with Redis</p> <p>- Deployment: Linux VPS, Nginx, systemd services, Cloudflare</p> <p>Tech stack: Python, FastAPI, PostgreSQL, Redis, Supabase, REST APIs, LLM integration</p> <p>What I&#39;m looking for:</p> <p>- Backend Python work APIs, data pipelines, integrations</p> <p>- Part-time / contract / project-based</p> <p>- Remote only</p> <p>- Open to short trial periods</p> <p>Timezone: GMT+3 (available evenings/weekends)</p> <p>DM me or comment if you have something that fits.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/maou-_-\"> /u/maou-_- </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/remotebackendjobs/\"> r/remotebackendjobs </a> <br/> <span><a href=\"https://www.reddit.com/r/remotebackendjobs/comments/1u3vawv/for_hire_backend_python_developer_parttime/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/remotebackendjobs/comments/1u3vawv/for_hire_backend_python_developer_parttime/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3x6x1",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for Referrals | Recent Graduate with 2 Years of Paid Internship Experience in Full Stack & Software Development",
+      "link": "https://www.reddit.com/r/FresherTechJobsIndia/comments/1u3x6x1/looking_for_referrals_recent_graduate_with_2/",
+      "published": "2026-06-12T14:40:41+00:00",
+      "updated": "2026-06-12T14:40:41+00:00",
+      "author": {
+        "name": "/u/r4mji_24",
+        "username": "r4mji_24",
+        "uri": "https://www.reddit.com/user/r4mji_24"
+      },
+      "subreddit": {
+        "term": "FresherTechJobsIndia",
+        "label": "r/FresherTechJobsIndia"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div>",
+      "bodyText": "I'm a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role I have around 2 years of paid internship where I worked on Frontend: Angular, TypeScript Backend: Node.js, NestJS, Python Databases: PostgreSQL, SQL also i've worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML I'm an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles. If your company is hiring or if you can provide a referral, I would be extremely grateful. I can share my resume if needed",
+      "externalUrl": "https://www.reddit.com/r/FresherTechJobsIndia/comments/1u3x6x1/looking_for_referrals_recent_graduate_with_2/",
+      "commentsUrl": "https://www.reddit.com/r/FresherTechJobsIndia/comments/1u3x6x1/looking_for_referrals_recent_graduate_with_2/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/r4mji_24\"> /u/r4mji_24 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/FresherTechJobsIndia/\"> r/FresherTechJobsIndia </a> <br/> <span><a href=\"https://www.reddit.com/r/FresherTechJobsIndia/comments/1u3x6x1/looking_for_referrals_recent_graduate_with_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FresherTechJobsIndia/comments/1u3x6x1/looking_for_referrals_recent_graduate_with_2/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3xcx5",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for Referrals | Recent Graduate with 2 Years of Paid Internship Experience in Full Stack & Software Development",
+      "link": "https://www.reddit.com/r/keralaCareers/comments/1u3xcx5/looking_for_referrals_recent_graduate_with_2/",
+      "published": "2026-06-12T14:47:03+00:00",
+      "updated": "2026-06-12T14:47:03+00:00",
+      "author": {
+        "name": "/u/r4mji_24",
+        "username": "r4mji_24",
+        "uri": "https://www.reddit.com/user/r4mji_24"
+      },
+      "subreddit": {
+        "term": "keralaCareers",
+        "label": "r/keralaCareers"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India </p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div>",
+      "bodyText": "I'm a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role I have around 2 years of paid internship where I worked on Frontend: Angular, TypeScript Backend: Node.js, NestJS, Python Databases: PostgreSQL, SQL also i've worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML I'm an immediate joiner and open to opportunities across India If your company is hiring or if you can provide a referral, I would be extremely grateful. I can share my resume if needed",
+      "externalUrl": "https://www.reddit.com/r/keralaCareers/comments/1u3xcx5/looking_for_referrals_recent_graduate_with_2/",
+      "commentsUrl": "https://www.reddit.com/r/keralaCareers/comments/1u3xcx5/looking_for_referrals_recent_graduate_with_2/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India </p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/r4mji_24\"> /u/r4mji_24 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/keralaCareers/\"> r/keralaCareers </a> <br/> <span><a href=\"https://www.reddit.com/r/keralaCareers/comments/1u3xcx5/looking_for_referrals_recent_graduate_with_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/keralaCareers/comments/1u3xcx5/looking_for_referrals_recent_graduate_with_2/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u4fv8g",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for job opportunities for Python backend developer role",
+      "link": "https://www.reddit.com/r/dev/comments/1u4fv8g/looking_for_job_opportunities_for_python_backend/",
+      "published": "2026-06-13T03:18:15+00:00",
+      "updated": "2026-06-13T03:18:15+00:00",
+      "author": {
+        "name": "/u/New-Programmer-6385",
+        "username": "New-Programmer-6385",
+        "uri": "https://www.reddit.com/user/New-Programmer-6385"
+      },
+      "subreddit": {
+        "term": "dev",
+        "label": "r/dev"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Hi Everyone!. I&#39;m currently serving notice in my current company which is about 45 days and my last working day is 27th July 2026. I have 3.5+ YOE in Python, Microservices, REST APIs, SQL, and backend development.</p> <p>I have attached the resume in my drive and shared the link. I&#39;m actively looking for Backend Developer / Software Developer opportunities in Chennai, Bangalore, or Hyderabad.</p> <p>Tech Stack: Backend Development, Python, FastAPI, APIs, SQL, Git</p> <p>Resume: <a href=\"https://drive.google.com/file/d/1C1fnsVJcRkJvrsoR4Ip1ssWPmEACrwQQ/view?usp=drivesdk\">https://drive.google.com/file/d/1C1fnsVJcRkJvrsoR4Ip1ssWPmEACrwQQ/view?usp=drivesdk</a></p> </div>",
+      "bodyText": "Hi Everyone!. I'm currently serving notice in my current company which is about 45 days and my last working day is 27th July 2026. I have 3.5+ YOE in Python, Microservices, REST APIs, SQL, and backend development. I have attached the resume in my drive and shared the link. I'm actively looking for Backend Developer / Software Developer opportunities in Chennai, Bangalore, or Hyderabad. Tech Stack: Backend Development, Python, FastAPI, APIs, SQL, Git https://drive.google.com/file/d/1C1fnsVJcRkJvrsoR4Ip1ssWPmEACrwQQ/view?usp=drivesdk Resume:",
+      "externalUrl": "https://drive.google.com/drive/folders/1r60t8gztGCAZTpYFadoRlL9ZYZ1FTqTs",
+      "commentsUrl": "https://www.reddit.com/r/dev/comments/1u4fv8g/looking_for_job_opportunities_for_python_backend/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hi Everyone!. I&#39;m currently serving notice in my current company which is about 45 days and my last working day is 27th July 2026. I have 3.5+ YOE in Python, Microservices, REST APIs, SQL, and backend development.</p> <p>I have attached the resume in my drive and shared the link. I&#39;m actively looking for Backend Developer / Software Developer opportunities in Chennai, Bangalore, or Hyderabad.</p> <p>Tech Stack: Backend Development, Python, FastAPI, APIs, SQL, Git</p> <p>Resume: <a href=\"https://drive.google.com/file/d/1C1fnsVJcRkJvrsoR4Ip1ssWPmEACrwQQ/view?usp=drivesdk\">https://drive.google.com/file/d/1C1fnsVJcRkJvrsoR4Ip1ssWPmEACrwQQ/view?usp=drivesdk</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/New-Programmer-6385\"> /u/New-Programmer-6385 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/dev/\"> r/dev </a> <br/> <span><a href=\"https://drive.google.com/drive/folders/1r60t8gztGCAZTpYFadoRlL9ZYZ1FTqTs\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/dev/comments/1u4fv8g/looking_for_job_opportunities_for_python_backend/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u45ycq",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for teammates for AI/Software Hackathons (Backend + AI Developer)",
+      "link": "https://www.reddit.com/r/letscodecommunity/comments/1u45ycq/looking_for_teammates_for_aisoftware_hackathons/",
+      "published": "2026-06-12T20:00:29+00:00",
+      "updated": "2026-06-12T20:00:29+00:00",
+      "author": {
+        "name": "/u/speeddemon4256",
+        "username": "speeddemon4256",
+        "uri": "https://www.reddit.com/user/speeddemon4256"
+      },
+      "subreddit": {
+        "term": "letscodecommunity",
+        "label": "r/letscodecommunity"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Hey everyone,</p> <p>I&#39;m a Computer Science student from Bengaluru looking for teammates for upcoming hackathons, especially AI, full-stack, and software engineering-focused events.</p> <p>A bit about me:</p> <ul> <li>Backend development</li> <li>AI integrations and LLM applications</li> <li>Python, Java, JavaScript</li> <li>Building projects with Claude, ChatGPT, and modern AI tools</li> <li>Interested in creating products that solve real problems rather than just demo projects</li> </ul> <p>You can check out my work here:</p> <p><strong>Portfolio:</strong> <a href=\"https://v0-pranavswaroop.vercel.app/\">https://v0-pranavswaroop.vercel.app/</a></p> <p><strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/pranav-swaroop-s/\">https://www.linkedin.com/in/pranav-swaroop-s/</a></p> <p>I&#39;m looking for:</p> <ul> <li>Frontend developers</li> <li>UI/UX designers</li> <li>ML/AI engineers</li> <li>Product-minded builders</li> </ul> <p>Skill level doesn&#39;t matter as much as commitment, communication, and willingness to build something cool.</p> <p>If you&#39;re interested in teaming up for upcoming hackathons, drop a comment or send me a DM with:</p> <ol> <li>Your background</li> <li>Tech stack</li> <li>Time zone/location</li> <li>Hackathons you&#39;re interested in</li> </ol> <p>Looking forward to building something awesome together</p> </div>",
+      "bodyText": "Hey everyone, I'm a Computer Science student from Bengaluru looking for teammates for upcoming hackathons, especially AI, full-stack, and software engineering-focused events. A bit about me: You can check out my work here: Portfolio: https://v0-pranavswaroop.vercel.app/ LinkedIn: https://www.linkedin.com/in/pranav-swaroop-s/ I'm looking for: Skill level doesn't matter as much as commitment, communication, and willingness to build something cool. If you're interested in teaming up for upcoming hackathons, drop a comment or send me a DM with: Looking forward to building something awesome together Backend development AI integrations and LLM applications Python, Java, JavaScript Building projects with Claude, ChatGPT, and modern AI tools Interested in creating products that solve real problems rather than just demo projects Frontend developers UI/UX designers ML/AI engineers Product-minded builders Your background Tech stack Time zone/location Hackathons you're interested in",
+      "externalUrl": "https://www.reddit.com/r/letscodecommunity/comments/1u45ycq/looking_for_teammates_for_aisoftware_hackathons/",
+      "commentsUrl": "https://www.reddit.com/r/letscodecommunity/comments/1u45ycq/looking_for_teammates_for_aisoftware_hackathons/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I&#39;m a Computer Science student from Bengaluru looking for teammates for upcoming hackathons, especially AI, full-stack, and software engineering-focused events.</p> <p>A bit about me:</p> <ul> <li>Backend development</li> <li>AI integrations and LLM applications</li> <li>Python, Java, JavaScript</li> <li>Building projects with Claude, ChatGPT, and modern AI tools</li> <li>Interested in creating products that solve real problems rather than just demo projects</li> </ul> <p>You can check out my work here:</p> <p><strong>Portfolio:</strong> <a href=\"https://v0-pranavswaroop.vercel.app/\">https://v0-pranavswaroop.vercel.app/</a></p> <p><strong>LinkedIn:</strong> <a href=\"https://www.linkedin.com/in/pranav-swaroop-s/\">https://www.linkedin.com/in/pranav-swaroop-s/</a></p> <p>I&#39;m looking for:</p> <ul> <li>Frontend developers</li> <li>UI/UX designers</li> <li>ML/AI engineers</li> <li>Product-minded builders</li> </ul> <p>Skill level doesn&#39;t matter as much as commitment, communication, and willingness to build something cool.</p> <p>If you&#39;re interested in teaming up for upcoming hackathons, drop a comment or send me a DM with:</p> <ol> <li>Your background</li> <li>Tech stack</li> <li>Time zone/location</li> <li>Hackathons you&#39;re interested in</li> </ol> <p>Looking forward to building something awesome together</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/speeddemon4256\"> /u/speeddemon4256 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/letscodecommunity/\"> r/letscodecommunity </a> <br/> <span><a href=\"https://www.reddit.com/r/letscodecommunity/comments/1u45ycq/looking_for_teammates_for_aisoftware_hackathons/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/letscodecommunity/comments/1u45ycq/looking_for_teammates_for_aisoftware_hackathons/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u4m3qo",
+      "kind": "t3",
+      "type": "post",
+      "title": "Full Stack Developer (MERN + Node.js + React) | Ex-Hindustan Times | Looking for New Opportunities After Team Shutdown",
+      "link": "https://www.reddit.com/r/Indiahiring/comments/1u4m3qo/full_stack_developer_mern_nodejs_react/",
+      "published": "2026-06-13T09:07:40+00:00",
+      "updated": "2026-06-13T09:07:40+00:00",
+      "author": {
+        "name": "/u/Aggravating-Drama916",
+        "username": "Aggravating-Drama916",
+        "uri": "https://www.reddit.com/user/Aggravating-Drama916"
+      },
+      "subreddit": {
+        "term": "Indiahiring",
+        "label": "r/Indiahiring"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Hi everyone,<br/> I&#39;m Rishabh Gupta, a Full Stack Developer with experience in React, Node.js, Express, MongoDB, Next.js, AWS, DynamoDB, and AI integrations.<br/> I was recently working at Hindustan Times, but unfortunately our vertical was shut down, so I&#39;m now actively looking for new opportunities.<br/> A few highlights:<br/> • Full-stack development experience across frontend and backend<br/> • Built scalable web applications using MERN stack and Next.js<br/> • Experience with AWS, DynamoDB, Razorpay integrations, and AI-powered products<br/> • Strong understanding of system design, APIs, databases, and cloud services<br/> • Computer Science graduate from VIT<br/> I&#39;m open to:<br/> Full-Time Software Engineer roles</p> <p>Full Stack Developer roles</p> <p>Backend Developer roles</p> <p>AI Engineer / AI Application Developer roles</p> <p>Preferred locations: Remote, Delhi NCR, Bangalore, Hyderabad, Pune (open to relocation)<br/> Resume: [Attach Resume]<br/> If your company is hiring or you know of any openings, I&#39;d greatly appreciate a referral or a conversation.<br/> Thank you!</p> </div>",
+      "bodyText": "Hi everyone, I'm Rishabh Gupta, a Full Stack Developer with experience in React, Node.js, Express, MongoDB, Next.js, AWS, DynamoDB, and AI integrations. I was recently working at Hindustan Times, but unfortunately our vertical was shut down, so I'm now actively looking for new opportunities. A few highlights: • Full-stack development experience across frontend and backend • Built scalable web applications using MERN stack and Next.js • Experience with AWS, DynamoDB, Razorpay integrations, and AI-powered products • Strong understanding of system design, APIs, databases, and cloud services • Computer Science graduate from VIT I'm open to: Full-Time Software Engineer roles Full Stack Developer roles Backend Developer roles AI Engineer / AI Application Developer roles Preferred locations: Remote, Delhi NCR, Bangalore, Hyderabad, Pune (open to relocation) Resume: [Attach Resume] If your company is hiring or you know of any openings, I'd greatly appreciate a referral or a conversation. Thank you!",
+      "externalUrl": "https://i.redd.it/w8ajbfkbn07h1.jpeg",
+      "commentsUrl": "https://www.reddit.com/r/Indiahiring/comments/1u4m3qo/full_stack_developer_mern_nodejs_react/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,<br/> I&#39;m Rishabh Gupta, a Full Stack Developer with experience in React, Node.js, Express, MongoDB, Next.js, AWS, DynamoDB, and AI integrations.<br/> I was recently working at Hindustan Times, but unfortunately our vertical was shut down, so I&#39;m now actively looking for new opportunities.<br/> A few highlights:<br/> • Full-stack development experience across frontend and backend<br/> • Built scalable web applications using MERN stack and Next.js<br/> • Experience with AWS, DynamoDB, Razorpay integrations, and AI-powered products<br/> • Strong understanding of system design, APIs, databases, and cloud services<br/> • Computer Science graduate from VIT<br/> I&#39;m open to:<br/> Full-Time Software Engineer roles</p> <p>Full Stack Developer roles</p> <p>Backend Developer roles</p> <p>AI Engineer / AI Application Developer roles</p> <p>Preferred locations: Remote, Delhi NCR, Bangalore, Hyderabad, Pune (open to relocation)<br/> Resume: [Attach Resume]<br/> If your company is hiring or you know of any openings, I&#39;d greatly appreciate a referral or a conversation.<br/> Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Aggravating-Drama916\"> /u/Aggravating-Drama916 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/Indiahiring/\"> r/Indiahiring </a> <br/> <span><a href=\"https://i.redd.it/w8ajbfkbn07h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Indiahiring/comments/1u4m3qo/full_stack_developer_mern_nodejs_react/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u4m3s4",
+      "kind": "t3",
+      "type": "post",
+      "title": "Full Stack Developer (MERN + Node.js + React) | Ex-Hindustan Times | Looking for New Opportunities After Team Shutdown",
+      "link": "https://www.reddit.com/r/Indiahiring/comments/1u4m3s4/full_stack_developer_mern_nodejs_react/",
+      "published": "2026-06-13T09:07:45+00:00",
+      "updated": "2026-06-13T09:07:45+00:00",
+      "author": {
+        "name": "/u/Aggravating-Drama916",
+        "username": "Aggravating-Drama916",
+        "uri": "https://www.reddit.com/user/Aggravating-Drama916"
+      },
+      "subreddit": {
+        "term": "Indiahiring",
+        "label": "r/Indiahiring"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Hi everyone,<br/> I&#39;m Rishabh Gupta, a Full Stack Developer with experience in React, Node.js, Express, MongoDB, Next.js, AWS, DynamoDB, and AI integrations.<br/> I was recently working at Hindustan Times, but unfortunately our vertical was shut down, so I&#39;m now actively looking for new opportunities.<br/> A few highlights:<br/> • Full-stack development experience across frontend and backend<br/> • Built scalable web applications using MERN stack and Next.js<br/> • Experience with AWS, DynamoDB, Razorpay integrations, and AI-powered products<br/> • Strong understanding of system design, APIs, databases, and cloud services<br/> • Computer Science graduate from VIT<br/> I&#39;m open to:<br/> Full-Time Software Engineer roles</p> <p>Full Stack Developer roles</p> <p>Backend Developer roles</p> <p>AI Engineer / AI Application Developer roles</p> <p>Preferred locations: Remote, Delhi NCR, Bangalore, Hyderabad, Pune (open to relocation)<br/> Resume: [Attach Resume]<br/> If your company is hiring or you know of any openings, I&#39;d greatly appreciate a referral or a conversation.<br/> Thank you!</p> </div>",
+      "bodyText": "Hi everyone, I'm Rishabh Gupta, a Full Stack Developer with experience in React, Node.js, Express, MongoDB, Next.js, AWS, DynamoDB, and AI integrations. I was recently working at Hindustan Times, but unfortunately our vertical was shut down, so I'm now actively looking for new opportunities. A few highlights: • Full-stack development experience across frontend and backend • Built scalable web applications using MERN stack and Next.js • Experience with AWS, DynamoDB, Razorpay integrations, and AI-powered products • Strong understanding of system design, APIs, databases, and cloud services • Computer Science graduate from VIT I'm open to: Full-Time Software Engineer roles Full Stack Developer roles Backend Developer roles AI Engineer / AI Application Developer roles Preferred locations: Remote, Delhi NCR, Bangalore, Hyderabad, Pune (open to relocation) Resume: [Attach Resume] If your company is hiring or you know of any openings, I'd greatly appreciate a referral or a conversation. Thank you!",
+      "externalUrl": "https://i.redd.it/k2792z4cn07h1.jpeg",
+      "commentsUrl": "https://www.reddit.com/r/Indiahiring/comments/1u4m3s4/full_stack_developer_mern_nodejs_react/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,<br/> I&#39;m Rishabh Gupta, a Full Stack Developer with experience in React, Node.js, Express, MongoDB, Next.js, AWS, DynamoDB, and AI integrations.<br/> I was recently working at Hindustan Times, but unfortunately our vertical was shut down, so I&#39;m now actively looking for new opportunities.<br/> A few highlights:<br/> • Full-stack development experience across frontend and backend<br/> • Built scalable web applications using MERN stack and Next.js<br/> • Experience with AWS, DynamoDB, Razorpay integrations, and AI-powered products<br/> • Strong understanding of system design, APIs, databases, and cloud services<br/> • Computer Science graduate from VIT<br/> I&#39;m open to:<br/> Full-Time Software Engineer roles</p> <p>Full Stack Developer roles</p> <p>Backend Developer roles</p> <p>AI Engineer / AI Application Developer roles</p> <p>Preferred locations: Remote, Delhi NCR, Bangalore, Hyderabad, Pune (open to relocation)<br/> Resume: [Attach Resume]<br/> If your company is hiring or you know of any openings, I&#39;d greatly appreciate a referral or a conversation.<br/> Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Aggravating-Drama916\"> /u/Aggravating-Drama916 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/Indiahiring/\"> r/Indiahiring </a> <br/> <span><a href=\"https://i.redd.it/k2792z4cn07h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Indiahiring/comments/1u4m3s4/full_stack_developer_mern_nodejs_react/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3xds1",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for Referrals | Recent Graduate with 2 Years of Paid Internship Experience in Full Stack & Software Development",
+      "link": "https://www.reddit.com/r/Daily_TechJobs_India/comments/1u3xds1/looking_for_referrals_recent_graduate_with_2/",
+      "published": "2026-06-12T14:47:54+00:00",
+      "updated": "2026-06-12T14:47:54+00:00",
+      "author": {
+        "name": "/u/r4mji_24",
+        "username": "r4mji_24",
+        "uri": "https://www.reddit.com/user/r4mji_24"
+      },
+      "subreddit": {
+        "term": "Daily_TechJobs_India",
+        "label": "r/Daily_TechJobs_India"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div>",
+      "bodyText": "I'm a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role I have around 2 years of paid internship where I worked on Frontend: Angular, TypeScript Backend: Node.js, NestJS, Python Databases: PostgreSQL, SQL also i've worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML I'm an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles. If your company is hiring or if you can provide a referral, I would be extremely grateful. I can share my resume if needed",
+      "externalUrl": "https://www.reddit.com/r/Daily_TechJobs_India/comments/1u3xds1/looking_for_referrals_recent_graduate_with_2/",
+      "commentsUrl": "https://www.reddit.com/r/Daily_TechJobs_India/comments/1u3xds1/looking_for_referrals_recent_graduate_with_2/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/r4mji_24\"> /u/r4mji_24 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/Daily_TechJobs_India/\"> r/Daily_TechJobs_India </a> <br/> <span><a href=\"https://www.reddit.com/r/Daily_TechJobs_India/comments/1u3xds1/looking_for_referrals_recent_graduate_with_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Daily_TechJobs_India/comments/1u3xds1/looking_for_referrals_recent_graduate_with_2/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3tedx",
+      "kind": "t3",
+      "type": "post",
+      "title": "[For Hire] Backend Python Developer — Part-Time / Contract",
+      "link": "https://www.reddit.com/r/devjobs/comments/1u3tedx/for_hire_backend_python_developer_parttime/",
+      "published": "2026-06-12T12:06:36+00:00",
+      "updated": "2026-06-12T12:06:36+00:00",
+      "author": {
+        "name": "/u/maou-_-",
+        "username": "maou-_-",
+        "uri": "https://www.reddit.com/user/maou-_-"
+      },
+      "subreddit": {
+        "term": "devjobs",
+        "label": "r/devjobs"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Backend Python developer looking for part-time or contract work (10-20 hrs/week). Currently employed full-time but available evenings and weekends.</p> <p>What I bring:</p> <p>- 2 years of experience as a solo developer building production internal tools</p> <p>- AI/ML integration: resume parsing, candidate scoring, and matching using LLM APIs (Gemini, OpenAI-compatible)</p> <p>- Real-time features: WebSocket audio pipelines, background job queues with Redis</p> <p>- Deployment: Linux VPS, Nginx, systemd services, Cloudflare</p> <p>Tech stack: Python, FastAPI, PostgreSQL, Redis, Supabase, REST APIs, LLM integration</p> <p>What I&#39;m looking for:</p> <p>- Backend Python work APIs, data pipelines, integrations</p> <p>- Part-time / contract / project-based</p> <p>- Remote only</p> <p>- Open to short trial periods</p> <p>Timezone: GMT+3 (available evenings/weekends)</p> <p>DM me or comment if you have something that fits.</p> </div>",
+      "bodyText": "Backend Python developer looking for part-time or contract work (10-20 hrs/week). Currently employed full-time but available evenings and weekends. What I bring: - 2 years of experience as a solo developer building production internal tools - AI/ML integration: resume parsing, candidate scoring, and matching using LLM APIs (Gemini, OpenAI-compatible) - Real-time features: WebSocket audio pipelines, background job queues with Redis - Deployment: Linux VPS, Nginx, systemd services, Cloudflare Tech stack: Python, FastAPI, PostgreSQL, Redis, Supabase, REST APIs, LLM integration What I'm looking for: - Backend Python work APIs, data pipelines, integrations - Part-time / contract / project-based - Remote only - Open to short trial periods Timezone: GMT+3 (available evenings/weekends) DM me or comment if you have something that fits.",
+      "externalUrl": "https://www.reddit.com/r/devjobs/comments/1u3tedx/for_hire_backend_python_developer_parttime/",
+      "commentsUrl": "https://www.reddit.com/r/devjobs/comments/1u3tedx/for_hire_backend_python_developer_parttime/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Backend Python developer looking for part-time or contract work (10-20 hrs/week). Currently employed full-time but available evenings and weekends.</p> <p>What I bring:</p> <p>- 2 years of experience as a solo developer building production internal tools</p> <p>- AI/ML integration: resume parsing, candidate scoring, and matching using LLM APIs (Gemini, OpenAI-compatible)</p> <p>- Real-time features: WebSocket audio pipelines, background job queues with Redis</p> <p>- Deployment: Linux VPS, Nginx, systemd services, Cloudflare</p> <p>Tech stack: Python, FastAPI, PostgreSQL, Redis, Supabase, REST APIs, LLM integration</p> <p>What I&#39;m looking for:</p> <p>- Backend Python work APIs, data pipelines, integrations</p> <p>- Part-time / contract / project-based</p> <p>- Remote only</p> <p>- Open to short trial periods</p> <p>Timezone: GMT+3 (available evenings/weekends)</p> <p>DM me or comment if you have something that fits.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/maou-_-\"> /u/maou-_- </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/devjobs/\"> r/devjobs </a> <br/> <span><a href=\"https://www.reddit.com/r/devjobs/comments/1u3tedx/for_hire_backend_python_developer_parttime/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/devjobs/comments/1u3tedx/for_hire_backend_python_developer_parttime/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u4ae5m",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for dev friends (15-18) with Google Colab experience to team up on faceless content automation with Python",
+      "link": "https://www.reddit.com/r/Coding_for_Teens/comments/1u4ae5m/looking_for_dev_friends_1518_with_google_colab/",
+      "published": "2026-06-12T22:58:34+00:00",
+      "updated": "2026-06-12T22:58:34+00:00",
+      "author": {
+        "name": "/u/Aggravating-Meal-249",
+        "username": "Aggravating-Meal-249",
+        "uri": "https://www.reddit.com/user/Aggravating-Meal-249"
+      },
+      "subreddit": {
+        "term": "Coding_for_Teens",
+        "label": "r/Coding_for_Teens"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Hey everyone,</p> <p>I&#39;m 15 and I code in Python. I&#39;m looking to connect and team up with a few other developers around my age (15-18) who are deep into both coding and the content creation side of things - specifically people who understand audience retention, hook structures, and social media engagement</p> <p>For this project, I really need someone who has solid experience working with Google Colab, as it fits perfectly with the workflow I&#39;m building.</p> <p>I’ve been heavily focused on video automation lately. I&#39;ve already built out full systems for first-person movie recap automations (you can check out the output on channels I&#39;ve run like @ SusyNu and @ CodyDilge on YouTube). Right now, I&#39;m mastering After Effects style automations in python and building a new system for Roblox rant videos.</p> <p>I want to find a few true coding friends who share this exact niche. Ideally, you know Python/Colab but you also look at content through an analytical lens and understand what makes a video perform well. The goal is to brainstorm, share knowledge, and build out powerful automation tools together for social media.</p> <p>If you have experience in this space, know Google Colab, and want to lock in on some projects, drop a comment or send me a DM with what you&#39;ve worked on and your Discord tag.</p> </div>",
+      "bodyText": "Hey everyone, I'm 15 and I code in Python. I'm looking to connect and team up with a few other developers around my age (15-18) who are deep into both coding and the content creation side of things - specifically people who understand audience retention, hook structures, and social media engagement For this project, I really need someone who has solid experience working with Google Colab, as it fits perfectly with the workflow I'm building. I’ve been heavily focused on video automation lately. I've already built out full systems for first-person movie recap automations (you can check out the output on channels I've run like @ SusyNu and @ CodyDilge on YouTube). Right now, I'm mastering After Effects style automations in python and building a new system for Roblox rant videos. I want to find a few true coding friends who share this exact niche. Ideally, you know Python/Colab but you also look at content through an analytical lens and understand what makes a video perform well. The goal is to brainstorm, share knowledge, and build out powerful automation tools together for social media. If you have experience in this space, know Google Colab, and want to lock in on some projects, drop a comment or send me a DM with what you've worked on and your Discord tag.",
+      "externalUrl": "https://www.reddit.com/r/Coding_for_Teens/comments/1u4ae5m/looking_for_dev_friends_1518_with_google_colab/",
+      "commentsUrl": "https://www.reddit.com/r/Coding_for_Teens/comments/1u4ae5m/looking_for_dev_friends_1518_with_google_colab/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I&#39;m 15 and I code in Python. I&#39;m looking to connect and team up with a few other developers around my age (15-18) who are deep into both coding and the content creation side of things - specifically people who understand audience retention, hook structures, and social media engagement</p> <p>For this project, I really need someone who has solid experience working with Google Colab, as it fits perfectly with the workflow I&#39;m building.</p> <p>I’ve been heavily focused on video automation lately. I&#39;ve already built out full systems for first-person movie recap automations (you can check out the output on channels I&#39;ve run like @ SusyNu and @ CodyDilge on YouTube). Right now, I&#39;m mastering After Effects style automations in python and building a new system for Roblox rant videos.</p> <p>I want to find a few true coding friends who share this exact niche. Ideally, you know Python/Colab but you also look at content through an analytical lens and understand what makes a video perform well. The goal is to brainstorm, share knowledge, and build out powerful automation tools together for social media.</p> <p>If you have experience in this space, know Google Colab, and want to lock in on some projects, drop a comment or send me a DM with what you&#39;ve worked on and your Discord tag.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Aggravating-Meal-249\"> /u/Aggravating-Meal-249 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/Coding_for_Teens/\"> r/Coding_for_Teens </a> <br/> <span><a href=\"https://www.reddit.com/r/Coding_for_Teens/comments/1u4ae5m/looking_for_dev_friends_1518_with_google_colab/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Coding_for_Teens/comments/1u4ae5m/looking_for_dev_friends_1518_with_google_colab/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3xads",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for Referrals | Recent Graduate with 2 Years of Paid Internship Experience in Full Stack & Software Development",
+      "link": "https://www.reddit.com/r/bangalorejob/comments/1u3xads/looking_for_referrals_recent_graduate_with_2/",
+      "published": "2026-06-12T14:44:20+00:00",
+      "updated": "2026-06-12T14:44:20+00:00",
+      "author": {
+        "name": "/u/r4mji_24",
+        "username": "r4mji_24",
+        "uri": "https://www.reddit.com/user/r4mji_24"
+      },
+      "subreddit": {
+        "term": "bangalorejob",
+        "label": "r/bangalorejob"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div>",
+      "bodyText": "I'm a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role I have around 2 years of paid internship where I worked on Frontend: Angular, TypeScript Backend: Node.js, NestJS, Python Databases: PostgreSQL, SQL also i've worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML I'm an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles. If your company is hiring or if you can provide a referral, I would be extremely grateful. I can share my resume if needed",
+      "externalUrl": "https://www.reddit.com/r/bangalorejob/comments/1u3xads/looking_for_referrals_recent_graduate_with_2/",
+      "commentsUrl": "https://www.reddit.com/r/bangalorejob/comments/1u3xads/looking_for_referrals_recent_graduate_with_2/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/r4mji_24\"> /u/r4mji_24 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/bangalorejob/\"> r/bangalorejob </a> <br/> <span><a href=\"https://www.reddit.com/r/bangalorejob/comments/1u3xads/looking_for_referrals_recent_graduate_with_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/bangalorejob/comments/1u3xads/looking_for_referrals_recent_graduate_with_2/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3x7x0",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for Referrals | Recent Graduate with 2 Years of Paid Internship Experience in Full Stack & Software Development",
+      "link": "https://www.reddit.com/r/firstjobindia/comments/1u3x7x0/looking_for_referrals_recent_graduate_with_2/",
+      "published": "2026-06-12T14:41:45+00:00",
+      "updated": "2026-06-12T14:41:45+00:00",
+      "author": {
+        "name": "/u/r4mji_24",
+        "username": "r4mji_24",
+        "uri": "https://www.reddit.com/user/r4mji_24"
+      },
+      "subreddit": {
+        "term": "firstjobindia",
+        "label": "r/firstjobindia"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div>",
+      "bodyText": "I'm a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role I have around 2 years of paid internship where I worked on Frontend: Angular, TypeScript Backend: Node.js, NestJS, Python Databases: PostgreSQL, SQL also i've worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML I'm an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles. If your company is hiring or if you can provide a referral, I would be extremely grateful. I can share my resume if needed",
+      "externalUrl": "https://www.reddit.com/r/firstjobindia/comments/1u3x7x0/looking_for_referrals_recent_graduate_with_2/",
+      "commentsUrl": "https://www.reddit.com/r/firstjobindia/comments/1u3x7x0/looking_for_referrals_recent_graduate_with_2/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/r4mji_24\"> /u/r4mji_24 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/firstjobindia/\"> r/firstjobindia </a> <br/> <span><a href=\"https://www.reddit.com/r/firstjobindia/comments/1u3x7x0/looking_for_referrals_recent_graduate_with_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/firstjobindia/comments/1u3x7x0/looking_for_referrals_recent_graduate_with_2/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3x64o",
+      "kind": "t3",
+      "type": "post",
+      "title": "Looking for Referrals | Recent Graduate with 2 Years of Paid Internship Experience in Full Stack & Software Development",
+      "link": "https://www.reddit.com/r/Indiahiring/comments/1u3x64o/looking_for_referrals_recent_graduate_with_2/",
+      "published": "2026-06-12T14:39:52+00:00",
+      "updated": "2026-06-12T14:39:52+00:00",
+      "author": {
+        "name": "/u/r4mji_24",
+        "username": "r4mji_24",
+        "uri": "https://www.reddit.com/user/r4mji_24"
+      },
+      "subreddit": {
+        "term": "Indiahiring",
+        "label": "r/Indiahiring"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div>",
+      "bodyText": "I'm a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role I have around 2 years of paid internship where I worked on Frontend: Angular, TypeScript Backend: Node.js, NestJS, Python Databases: PostgreSQL, SQL also i've worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML I'm an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles. If your company is hiring or if you can provide a referral, I would be extremely grateful. I can share my resume if needed",
+      "externalUrl": "https://www.reddit.com/r/Indiahiring/comments/1u3x64o/looking_for_referrals_recent_graduate_with_2/",
+      "commentsUrl": "https://www.reddit.com/r/Indiahiring/comments/1u3x64o/looking_for_referrals_recent_graduate_with_2/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m a recent Computer Science graduate (2026) from a tier 3 university in Coimbatore and currently looking for entry level Software Engineer, Backend Developer or Full Stack Developer Role</p> <p>I have around 2 years of paid internship where I worked on</p> <p>Frontend: Angular, TypeScript</p> <p>Backend: Node.js, NestJS, Python</p> <p>Databases: PostgreSQL, SQL</p> <p>also i&#39;ve worked on REST APIs, Git, Selenium, AI-assisted applications, basic ML</p> <p>I&#39;m an immediate joiner and open to opportunities across India (Bangalore, Chennai, Coimbatore) and remote roles.</p> <p>If your company is hiring or if you can provide a referral, I would be extremely grateful. </p> <p>I can share my resume if needed</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/r4mji_24\"> /u/r4mji_24 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/Indiahiring/\"> r/Indiahiring </a> <br/> <span><a href=\"https://www.reddit.com/r/Indiahiring/comments/1u3x64o/looking_for_referrals_recent_graduate_with_2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Indiahiring/comments/1u3x64o/looking_for_referrals_recent_graduate_with_2/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3w14c",
+      "kind": "t3",
+      "type": "post",
+      "title": "Starting to learn coding at 45 . No previous experience.",
+      "link": "https://www.reddit.com/r/CodingForBeginners/comments/1u3w14c/starting_to_learn_coding_at_45_no_previous/",
+      "published": "2026-06-12T13:57:41+00:00",
+      "updated": "2026-06-12T13:57:41+00:00",
+      "author": {
+        "name": "/u/Commercial-Radio-500",
+        "username": "Commercial-Radio-500",
+        "uri": "https://www.reddit.com/user/Commercial-Radio-500"
+      },
+      "subreddit": {
+        "term": "CodingForBeginners",
+        "label": "r/CodingForBeginners"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Hi everyone! I’m currently living in Japan and have been working as an English teacher for the past few years, but I’m ready for a career change.<br/> I’ve been exploring the idea of diving into tech. While I initially looked into Data Science, I realized it might not be the best fit since I&#39;m not particularly strong in math. I think I’d be much more interested in <strong>web development and app creation</strong>.<br/> I’m currently feeling a bit overwhelmed by where to begin. I’ve received suggestions to look into Python, Ruby on Rails, and JavaScript, but I&#39;m still trying to narrow it down.<br/> Also, I’m definitely a visual learner. I worry that I might lose motivation if I spend too much time focusing solely on heavy syntax without seeing tangible, visual results early on.<br/> Does anyone have any advice or suggestions for a path that might suit a visual learner like me? I’d love to hear your thoughts!<br/> Would you like some specific recommendations on web development paths that are great for visual learners?</p> </div>",
+      "bodyText": "web development and app creation Hi everyone! I’m currently living in Japan and have been working as an English teacher for the past few years, but I’m ready for a career change. I’ve been exploring the idea of diving into tech. While I initially looked into Data Science, I realized it might not be the best fit since I'm not particularly strong in math. I think I’d be much more interested in . I’m currently feeling a bit overwhelmed by where to begin. I’ve received suggestions to look into Python, Ruby on Rails, and JavaScript, but I'm still trying to narrow it down. Also, I’m definitely a visual learner. I worry that I might lose motivation if I spend too much time focusing solely on heavy syntax without seeing tangible, visual results early on. Does anyone have any advice or suggestions for a path that might suit a visual learner like me? I’d love to hear your thoughts! Would you like some specific recommendations on web development paths that are great for visual learners?",
+      "externalUrl": "https://www.reddit.com/r/CodingForBeginners/comments/1u3w14c/starting_to_learn_coding_at_45_no_previous/",
+      "commentsUrl": "https://www.reddit.com/r/CodingForBeginners/comments/1u3w14c/starting_to_learn_coding_at_45_no_previous/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone! I’m currently living in Japan and have been working as an English teacher for the past few years, but I’m ready for a career change.<br/> I’ve been exploring the idea of diving into tech. While I initially looked into Data Science, I realized it might not be the best fit since I&#39;m not particularly strong in math. I think I’d be much more interested in <strong>web development and app creation</strong>.<br/> I’m currently feeling a bit overwhelmed by where to begin. I’ve received suggestions to look into Python, Ruby on Rails, and JavaScript, but I&#39;m still trying to narrow it down.<br/> Also, I’m definitely a visual learner. I worry that I might lose motivation if I spend too much time focusing solely on heavy syntax without seeing tangible, visual results early on.<br/> Does anyone have any advice or suggestions for a path that might suit a visual learner like me? I’d love to hear your thoughts!<br/> Would you like some specific recommendations on web development paths that are great for visual learners?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Commercial-Radio-500\"> /u/Commercial-Radio-500 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/CodingForBeginners/\"> r/CodingForBeginners </a> <br/> <span><a href=\"https://www.reddit.com/r/CodingForBeginners/comments/1u3w14c/starting_to_learn_coding_at_45_no_previous/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/CodingForBeginners/comments/1u3w14c/starting_to_learn_coding_at_45_no_previous/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u4je12",
+      "kind": "t3",
+      "type": "post",
+      "title": "21F Recent BE Graduate Looking for Opportunities in Full Stack or Al/ML",
+      "link": "https://www.reddit.com/r/punemeetup/comments/1u4je12/21f_recent_be_graduate_looking_for_opportunities/",
+      "published": "2026-06-13T06:26:25+00:00",
+      "updated": "2026-06-13T06:26:25+00:00",
+      "author": {
+        "name": "/u/ThinMeasurement2195",
+        "username": "ThinMeasurement2195",
+        "uri": "https://www.reddit.com/user/ThinMeasurement2195"
+      },
+      "subreddit": {
+        "term": "punemeetup",
+        "label": "r/punemeetup"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>I&#39;m a 21F BE graduate who recently finished college and I&#39;m currently looking for opportunities in Full Stack Development, Al/ML, Data Analytics, or Software Development.<br/> My tech stack mainly includes Java, Spring Boot, React.js, Python, and SQL. I&#39;ve built a few academic and personal projects and have also worked on Al/ ML and data analytics-related work. Right now, I&#39;m trying to get my foot in the industry, I REALLY REALLY need to get a job as soon as possible. I have been constantly applying everywhere, nothing seems to work and its just depressing at the moment.<br/> The job market has been rough for freshers, so if anyone knows of openings, internships, referrals, or even has advice on where to apply, l&#39;d be really grateful.<br/> Thanks in advance 🥹<br/> ③</p> </div>",
+      "bodyText": "I'm a 21F BE graduate who recently finished college and I'm currently looking for opportunities in Full Stack Development, Al/ML, Data Analytics, or Software Development. My tech stack mainly includes Java, Spring Boot, React.js, Python, and SQL. I've built a few academic and personal projects and have also worked on Al/ ML and data analytics-related work. Right now, I'm trying to get my foot in the industry, I REALLY REALLY need to get a job as soon as possible. I have been constantly applying everywhere, nothing seems to work and its just depressing at the moment. The job market has been rough for freshers, so if anyone knows of openings, internships, referrals, or even has advice on where to apply, l'd be really grateful. Thanks in advance 🥹 ③",
+      "externalUrl": "https://www.reddit.com/r/punemeetup/comments/1u4je12/21f_recent_be_graduate_looking_for_opportunities/",
+      "commentsUrl": "https://www.reddit.com/r/punemeetup/comments/1u4je12/21f_recent_be_graduate_looking_for_opportunities/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m a 21F BE graduate who recently finished college and I&#39;m currently looking for opportunities in Full Stack Development, Al/ML, Data Analytics, or Software Development.<br/> My tech stack mainly includes Java, Spring Boot, React.js, Python, and SQL. I&#39;ve built a few academic and personal projects and have also worked on Al/ ML and data analytics-related work. Right now, I&#39;m trying to get my foot in the industry, I REALLY REALLY need to get a job as soon as possible. I have been constantly applying everywhere, nothing seems to work and its just depressing at the moment.<br/> The job market has been rough for freshers, so if anyone knows of openings, internships, referrals, or even has advice on where to apply, l&#39;d be really grateful.<br/> Thanks in advance 🥹<br/> ③</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ThinMeasurement2195\"> /u/ThinMeasurement2195 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/punemeetup/\"> r/punemeetup </a> <br/> <span><a href=\"https://www.reddit.com/r/punemeetup/comments/1u4je12/21f_recent_be_graduate_looking_for_opportunities/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/punemeetup/comments/1u4je12/21f_recent_be_graduate_looking_for_opportunities/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u3y2gd",
+      "kind": "t3",
+      "type": "post",
+      "title": "Final Year BTech CSE Student From a Tier-3 College, Feeling Lost and Running Out of Time",
+      "link": "https://www.reddit.com/r/GenZIndia/comments/1u3y2gd/final_year_btech_cse_student_from_a_tier3_college/",
+      "published": "2026-06-12T15:12:45+00:00",
+      "updated": "2026-06-12T15:12:45+00:00",
+      "author": {
+        "name": "/u/Boring_Dig_3380",
+        "username": "Boring_Dig_3380",
+        "uri": "https://www.reddit.com/user/Boring_Dig_3380"
+      },
+      "subreddit": {
+        "term": "GenZIndia",
+        "label": "r/GenZIndia"
+      },
+      "thumbnail": null,
+      "bodyHtml": "<div class=\"md\"><p>Hi everyone,</p> <p>&#x200B;</p> <p>I&#39;m a 4th-year BTech CSE student from a tier-3 college in a small city in Northeast India, and honestly, I&#39;m feeling completely lost.</p> <p>&#x200B;</p> <p>I know basic programming in C, Python, and Java. I also understand some OOP concepts, but I wouldn&#39;t say I&#39;m strong at them. The problem is that every time I try to choose a path, I get overwhelmed.</p> <p>&#x200B;</p> <p>Should I focus on DSA? Should I learn web development? Should I get into AI/ML? Should I prepare for off-campus placements? Should I learn cloud, DevOps, cybersecurity, or something else?</p> <p>&#x200B;</p> <p>Every day I watch YouTube videos, read LinkedIn posts, and browse Reddit, and everyone seems to be doing something different. It feels like I&#39;m already behind compared to everyone else.</p> <p>&#x200B;</p> <p>I have only about one year left before graduation, and my biggest goal is to become financially independent as soon as possible.</p> <p>&#x200B;</p> <p>I desperately want to leave my current environment. My relationship with my parents is difficult, and staying here long-term is affecting my mental well-being. Ideally, I would either:</p> <p>&#x200B;</p> <ol> <li>Get a decent job in another city and move out, or</li> </ol> <p>&#x200B;</p> <p>&#x200B;</p> <ol> <li>Get a remote job so I can live independently while staying in my hometown.</li> </ol> <p>&#x200B;</p> <p>&#x200B;</p> <p>&#x200B;</p> <p>The job market looks brutal right now. Every internship seems to require experience, every job posting has hundreds of applicants, and social media makes it look like everyone already has amazing projects, internships, and competitive programming achievements.</p> <p>&#x200B;</p> <p>I&#39;m not looking for sympathy. I genuinely want practical advice from people who were in a similar position.</p> <p>&#x200B;</p> <p>If you were a final-year student starting almost from scratch, what would you focus on for the next 12 months?</p> <p>&#x200B;</p> <p>What skills give the highest chance of landing a job in 2026?</p> <p>&#x200B;</p> <p>Is it still realistic to get a software engineering role from a tier-3 college with no internship experience?</p> <p>&#x200B;</p> <p>Should I prioritize DSA, development, or AI/ML?</p> <p>&#x200B;</p> <p>Are remote jobs realistic for freshers, or should I focus on getting any job first and then transition later?</p> <p>&#x200B;</p> <p>&#x200B;</p> <p>I&#39;d really appreciate honest advice, roadmaps, success stories, or even hard truths.</p> <p>&#x200B;</p> <p>Thanks for reading.</p> </div>",
+      "bodyText": "Hi everyone, ​ I'm a 4th-year BTech CSE student from a tier-3 college in a small city in Northeast India, and honestly, I'm feeling completely lost. ​ I know basic programming in C, Python, and Java. I also understand some OOP concepts, but I wouldn't say I'm strong at them. The problem is that every time I try to choose a path, I get overwhelmed. ​ Should I focus on DSA? Should I learn web development? Should I get into AI/ML? Should I prepare for off-campus placements? Should I learn cloud, DevOps, cybersecurity, or something else? ​ Every day I watch YouTube videos, read LinkedIn posts, and browse Reddit, and everyone seems to be doing something different. It feels like I'm already behind compared to everyone else. ​ I have only about one year left before graduation, and my biggest goal is to become financially independent as soon as possible. ​ I desperately want to leave my current environment. My relationship with my parents is difficult, and staying here long-term is affecting my mental well-being. Ideally, I would either: ​ ​ ​ ​ ​ ​ The job market looks brutal right now. Every internship seems to require experience, every job posting has hundreds of applicants, and social media makes it look like everyone already has amazing projects, internships, and competitive programming achievements. ​ I'm not looking for sympathy. I genuinely want practical advice from people who were in a similar position. ​ If you were a final-year student starting almost from scratch, what would you focus on for the next 12 months? ​ What skills give the highest chance of landing a job in 2026? ​ Is it still realistic to get a software engineering role from a tier-3 college with no internship experience? ​ Should I prioritize DSA, development, or AI/ML? ​ Are remote jobs realistic for freshers, or should I focus on getting any job first and then transition later? ​ ​ I'd really appreciate honest advice, roadmaps, success stories, or even hard truths. ​ Thanks for reading. Get a decent job in another city and move out, or Get a remote job so I can live independently while staying in my hometown.",
+      "externalUrl": "https://www.reddit.com/r/GenZIndia/comments/1u3y2gd/final_year_btech_cse_student_from_a_tier3_college/",
+      "commentsUrl": "https://www.reddit.com/r/GenZIndia/comments/1u3y2gd/final_year_btech_cse_student_from_a_tier3_college/",
+      "imageUrl": null,
+      "contentType": "html",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>&#x200B;</p> <p>I&#39;m a 4th-year BTech CSE student from a tier-3 college in a small city in Northeast India, and honestly, I&#39;m feeling completely lost.</p> <p>&#x200B;</p> <p>I know basic programming in C, Python, and Java. I also understand some OOP concepts, but I wouldn&#39;t say I&#39;m strong at them. The problem is that every time I try to choose a path, I get overwhelmed.</p> <p>&#x200B;</p> <p>Should I focus on DSA? Should I learn web development? Should I get into AI/ML? Should I prepare for off-campus placements? Should I learn cloud, DevOps, cybersecurity, or something else?</p> <p>&#x200B;</p> <p>Every day I watch YouTube videos, read LinkedIn posts, and browse Reddit, and everyone seems to be doing something different. It feels like I&#39;m already behind compared to everyone else.</p> <p>&#x200B;</p> <p>I have only about one year left before graduation, and my biggest goal is to become financially independent as soon as possible.</p> <p>&#x200B;</p> <p>I desperately want to leave my current environment. My relationship with my parents is difficult, and staying here long-term is affecting my mental well-being. Ideally, I would either:</p> <p>&#x200B;</p> <ol> <li>Get a decent job in another city and move out, or</li> </ol> <p>&#x200B;</p> <p>&#x200B;</p> <ol> <li>Get a remote job so I can live independently while staying in my hometown.</li> </ol> <p>&#x200B;</p> <p>&#x200B;</p> <p>&#x200B;</p> <p>The job market looks brutal right now. Every internship seems to require experience, every job posting has hundreds of applicants, and social media makes it look like everyone already has amazing projects, internships, and competitive programming achievements.</p> <p>&#x200B;</p> <p>I&#39;m not looking for sympathy. I genuinely want practical advice from people who were in a similar position.</p> <p>&#x200B;</p> <p>If you were a final-year student starting almost from scratch, what would you focus on for the next 12 months?</p> <p>&#x200B;</p> <p>What skills give the highest chance of landing a job in 2026?</p> <p>&#x200B;</p> <p>Is it still realistic to get a software engineering role from a tier-3 college with no internship experience?</p> <p>&#x200B;</p> <p>Should I prioritize DSA, development, or AI/ML?</p> <p>&#x200B;</p> <p>Are remote jobs realistic for freshers, or should I focus on getting any job first and then transition later?</p> <p>&#x200B;</p> <p>&#x200B;</p> <p>I&#39;d really appreciate honest advice, roadmaps, success stories, or even hard truths.</p> <p>&#x200B;</p> <p>Thanks for reading.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Boring_Dig_3380\"> /u/Boring_Dig_3380 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/GenZIndia/\"> r/GenZIndia </a> <br/> <span><a href=\"https://www.reddit.com/r/GenZIndia/comments/1u3y2gd/final_year_btech_cse_student_from_a_tier3_college/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/GenZIndia/comments/1u3y2gd/final_year_btech_cse_student_from_a_tier3_college/\">[comments]</a></span>"
+    },
+    {
+      "id": "t3_1u49leo",
+      "kind": "t3",
+      "type": "post",
+      "title": "Comparative analysis of ML & Data job market",
+      "link": "https://www.reddit.com/r/learnmachinelearning/comments/1u49leo/comparative_analysis_of_ml_data_job_market/",
+      "published": "2026-06-12T22:24:34+00:00",
+      "updated": "2026-06-12T22:24:34+00:00",
+      "author": {
+        "name": "/u/Akumetsu_971",
+        "username": "Akumetsu_971",
+        "uri": "https://www.reddit.com/user/Akumetsu_971"
+      },
+      "subreddit": {
+        "term": "learnmachinelearning",
+        "label": "r/learnmachinelearning"
+      },
+      "thumbnail": "https://preview.redd.it/rdlgja0kgx6h1.png?width=140&height=78&auto=webp&s=a6c1b09b7035da78f6ac0b0e104d6d546aa4514b",
+      "bodyHtml": "<div class=\"md\"><p>As a side project, I decided to analyze the Data, Machine Learning, and Software job market in Vancouver to see what companies are actually hiring for.</p> <p>I scraped 200 job postings (Machine Learning Engineer, Data Scientist, Data Engineer, and related roles), cleaned duplicates, and ended up with 147 unique positions.</p> <p>The goal wasn&#39;t to build a perfect study, but rather to get a rough picture of what skills and profiles are actually in demand.</p> <p>A few things surprised me.</p> <ol> <li>The market seems much less research-focused than I expected</li> </ol> <p>When people discuss Machine Learning careers online, there is often a strong emphasis on research, publications, Master&#39;s degrees, and PhDs.</p> <p>In my dataset, research-oriented positions represented only about 10% of the jobs.</p> <p>The remaining ~90% were focused on building, deploying, integrating, and maintaining production systems.</p> <p>This made me wonder whether the online discussion is overrepresenting research compared to what the average company is actually hiring for.</p> <ol> <li>Python is everywhere, but SQL might be the real workhorse</li> </ol> <p>No surprise: Python dominated almost every category.</p> <p>What surprised me more was SQL.</p> <p>It showed up consistently across Data Engineering, Data Science, Analytics, and even some ML-related roles.</p> <p>Cloud technologies (AWS/Azure), Spark, Databricks, and other production-oriented tools also appeared much more frequently than I expected.</p> <p>The impression I got is that companies aren&#39;t just looking for people who can train models. They&#39;re looking for people who can build systems around those models.</p> <ol> <li>LLM-related skills appeared far more often than Computer Vision</li> </ol> <p>I expected to see more traditional ML and Computer Vision positions.</p> <p>Instead, I found a lot of demand for:</p> <p>LLMs</p> <p>RAG</p> <p>Vector databases</p> <p>Agent-based systems</p> <p>Production applications</p> <p>Computer Vision jobs were surprisingly rare in comparison.</p> <p>Is this something others are seeing as well, or is this just a Vancouver-specific phenomenon?</p> <ol> <li>Salary observations</li> </ol> <p>Only 36 postings disclosed salary information, so this part should definitely be taken with caution.</p> <p>From that limited sample, research and ML Engineering roles tended to report the highest compensation, while many engineering and data-focused positions clustered somewhat lower.</p> <p>My main takeaway</p> <p>The biggest surprise was how different the market looks compared to many online discussions.</p> <p>Most companies don&#39;t seem to be hiring people to invent new architectures.</p> <p>They appear to be hiring people who can:</p> <p>Build applications</p> <p>Deploy models</p> <p>Work with cloud infrastructure</p> <p>Handle data pipelines</p> <p>Integrate foundation models into products</p> <p>For those of you working in industry, does this match what you&#39;re seeing?</p> <p>And for hiring managers or senior engineers: if someone wanted to maximize their employability over the next few years, would you prioritize:</p> <p>Advanced ML theory and research?</p> <p>Software engineering and cloud skills?</p> <p>Data engineering?</p> <p>LLM application development?</p> <p>I&#39;d be interested to know whether my conclusions are broadly correct or whether this dataset is giving me a distorted picture of the market.</p> <p>Two more questions:</p> <p>What&#39;s the professional way to share this kind of project?</p> <p>Right now, I only have a Jupyter notebook on GitHub. Do people usually leave it as a notebook, convert it to HTML, build a small dashboard, or publish it as a report? I&#39;m curious how data professionals typically present this type of work in their portfolios.</p> <p>Also, how do you scrape hundreds of job postings for free?</p> <p>I tried several tools but eventually ended up using Browse AI. I&#39;m curious what tools or workflows people use to collect this kind of data at scale.</p> <p>Project repo: <a href=\"https://github.com/JAllemand971/AI_Job_Market_Analysis\">https://github.com/JAllemand971/AI_Job_Market_Analysis</a></p> </div>",
+      "bodyText": "As a side project, I decided to analyze the Data, Machine Learning, and Software job market in Vancouver to see what companies are actually hiring for. I scraped 200 job postings (Machine Learning Engineer, Data Scientist, Data Engineer, and related roles), cleaned duplicates, and ended up with 147 unique positions. The goal wasn't to build a perfect study, but rather to get a rough picture of what skills and profiles are actually in demand. A few things surprised me. When people discuss Machine Learning careers online, there is often a strong emphasis on research, publications, Master's degrees, and PhDs. In my dataset, research-oriented positions represented only about 10% of the jobs. The remaining ~90% were focused on building, deploying, integrating, and maintaining production systems. This made me wonder whether the online discussion is overrepresenting research compared to what the average company is actually hiring for. No surprise: Python dominated almost every category. What surprised me more was SQL. It showed up consistently across Data Engineering, Data Science, Analytics, and even some ML-related roles. Cloud technologies (AWS/Azure), Spark, Databricks, and other production-oriented tools also appeared much more frequently than I expected. The impression I got is that companies aren't just looking for people who can train models. They're looking for people who can build systems around those models. I expected to see more traditional ML and Computer Vision positions. Instead, I found a lot of demand for: LLMs RAG Vector databases Agent-based systems Production applications Computer Vision jobs were surprisingly rare in comparison. Is this something others are seeing as well, or is this just a Vancouver-specific phenomenon? Only 36 postings disclosed salary information, so this part should definitely be taken with caution. From that limited sample, research and ML Engineering roles tended to report the highest compensation, while many engineering and data-focused positions clustered somewhat lower. My main takeaway The biggest surprise was how different the market looks compared to many online discussions. Most companies don't seem to be hiring people to invent new architectures. They appear to be hiring people who can: Build applications Deploy models Work with cloud infrastructure Handle data pipelines Integrate foundation models into products For those of you working in industry, does this match what you're seeing? And for hiring managers or senior engineers: if someone wanted to maximize their employability over the next few years, would you prioritize: Advanced ML theory and research? Software engineering and cloud skills? Data engineering? LLM application development? I'd be interested to know whether my conclusions are broadly correct or whether this dataset is giving me a distorted picture of the market. Two more questions: What's the professional way to share this kind of project? Right now, I only have a Jupyter notebook on GitHub. Do people usually leave it as a notebook, convert it to HTML, build a small dashboard, or publish it as a report? I'm curious how data professionals typically present this type of work in their portfolios. Also, how do you scrape hundreds of job postings for free? I tried several tools but eventually ended up using Browse AI. I'm curious what tools or workflows people use to collect this kind of data at scale. https://github.com/JAllemand971/AI_Job_Market_Analysis Project repo: The market seems much less research-focused than I expected Python is everywhere, but SQL might be the real workhorse LLM-related skills appeared far more often than Computer Vision Salary observations",
+      "externalUrl": "https://www.reddit.com/gallery/1u49leo",
+      "commentsUrl": "https://www.reddit.com/r/learnmachinelearning/comments/1u49leo/comparative_analysis_of_ml_data_job_market/",
+      "imageUrl": "https://preview.redd.it/rdlgja0kgx6h1.png?width=140&height=78&auto=webp&s=a6c1b09b7035da78f6ac0b0e104d6d546aa4514b",
+      "contentType": "html",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/learnmachinelearning/comments/1u49leo/comparative_analysis_of_ml_data_job_market/\"> <img src=\"https://preview.redd.it/rdlgja0kgx6h1.png?width=140&amp;height=78&amp;auto=webp&amp;s=a6c1b09b7035da78f6ac0b0e104d6d546aa4514b\" alt=\"Comparative analysis of ML &amp; Data job market\" title=\"Comparative analysis of ML &amp; Data job market\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>As a side project, I decided to analyze the Data, Machine Learning, and Software job market in Vancouver to see what companies are actually hiring for.</p> <p>I scraped 200 job postings (Machine Learning Engineer, Data Scientist, Data Engineer, and related roles), cleaned duplicates, and ended up with 147 unique positions.</p> <p>The goal wasn&#39;t to build a perfect study, but rather to get a rough picture of what skills and profiles are actually in demand.</p> <p>A few things surprised me.</p> <ol> <li>The market seems much less research-focused than I expected</li> </ol> <p>When people discuss Machine Learning careers online, there is often a strong emphasis on research, publications, Master&#39;s degrees, and PhDs.</p> <p>In my dataset, research-oriented positions represented only about 10% of the jobs.</p> <p>The remaining ~90% were focused on building, deploying, integrating, and maintaining production systems.</p> <p>This made me wonder whether the online discussion is overrepresenting research compared to what the average company is actually hiring for.</p> <ol> <li>Python is everywhere, but SQL might be the real workhorse</li> </ol> <p>No surprise: Python dominated almost every category.</p> <p>What surprised me more was SQL.</p> <p>It showed up consistently across Data Engineering, Data Science, Analytics, and even some ML-related roles.</p> <p>Cloud technologies (AWS/Azure), Spark, Databricks, and other production-oriented tools also appeared much more frequently than I expected.</p> <p>The impression I got is that companies aren&#39;t just looking for people who can train models. They&#39;re looking for people who can build systems around those models.</p> <ol> <li>LLM-related skills appeared far more often than Computer Vision</li> </ol> <p>I expected to see more traditional ML and Computer Vision positions.</p> <p>Instead, I found a lot of demand for:</p> <p>LLMs</p> <p>RAG</p> <p>Vector databases</p> <p>Agent-based systems</p> <p>Production applications</p> <p>Computer Vision jobs were surprisingly rare in comparison.</p> <p>Is this something others are seeing as well, or is this just a Vancouver-specific phenomenon?</p> <ol> <li>Salary observations</li> </ol> <p>Only 36 postings disclosed salary information, so this part should definitely be taken with caution.</p> <p>From that limited sample, research and ML Engineering roles tended to report the highest compensation, while many engineering and data-focused positions clustered somewhat lower.</p> <p>My main takeaway</p> <p>The biggest surprise was how different the market looks compared to many online discussions.</p> <p>Most companies don&#39;t seem to be hiring people to invent new architectures.</p> <p>They appear to be hiring people who can:</p> <p>Build applications</p> <p>Deploy models</p> <p>Work with cloud infrastructure</p> <p>Handle data pipelines</p> <p>Integrate foundation models into products</p> <p>For those of you working in industry, does this match what you&#39;re seeing?</p> <p>And for hiring managers or senior engineers: if someone wanted to maximize their employability over the next few years, would you prioritize:</p> <p>Advanced ML theory and research?</p> <p>Software engineering and cloud skills?</p> <p>Data engineering?</p> <p>LLM application development?</p> <p>I&#39;d be interested to know whether my conclusions are broadly correct or whether this dataset is giving me a distorted picture of the market.</p> <p>Two more questions:</p> <p>What&#39;s the professional way to share this kind of project?</p> <p>Right now, I only have a Jupyter notebook on GitHub. Do people usually leave it as a notebook, convert it to HTML, build a small dashboard, or publish it as a report? I&#39;m curious how data professionals typically present this type of work in their portfolios.</p> <p>Also, how do you scrape hundreds of job postings for free?</p> <p>I tried several tools but eventually ended up using Browse AI. I&#39;m curious what tools or workflows people use to collect this kind of data at scale.</p> <p>Project repo: <a href=\"https://github.com/JAllemand971/AI_Job_Market_Analysis\">https://github.com/JAllemand971/AI_Job_Market_Analysis</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Akumetsu_971\"> /u/Akumetsu_971 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/learnmachinelearning/\"> r/learnmachinelearning </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1u49leo\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/learnmachinelearning/comments/1u49leo/comparative_analysis_of_ml_data_job_market/\">[comments]</a></span> </td></tr></table>"
+    },
+    {
+      "id": "t3_1u462ui",
+      "kind": "t3",
+      "type": "post",
+      "title": "Please roast my development resume. Applied around 2000 jobs and barely any calls. International student",
+      "link": "https://www.reddit.com/r/recruitinghell/comments/1u462ui/please_roast_my_development_resume_applied_around/",
+      "published": "2026-06-12T20:05:08+00:00",
+      "updated": "2026-06-12T20:05:08+00:00",
+      "author": {
+        "name": "/u/Dry_Dimension266",
+        "username": "Dry_Dimension266",
+        "uri": "https://www.reddit.com/user/Dry_Dimension266"
+      },
+      "subreddit": {
+        "term": "recruitinghell",
+        "label": "r/recruitinghell"
+      },
+      "thumbnail": "https://preview.redd.it/4m0redmprw6h1.jpeg?width=640&crop=smart&auto=webp&s=4b839211bc3d835e107b2cf5523bdd22209b006f",
+      "bodyHtml": "<div class=\"md\"><p>Can some recruiters or any senior guys give me inputs on where to improve so that I get calls?</p> <p>Applying for jobs in the US.</p> <p>F-1 international student </p> </div>",
+      "bodyText": "Can some recruiters or any senior guys give me inputs on where to improve so that I get calls? Applying for jobs in the US. F-1 international student",
+      "externalUrl": "https://i.redd.it/4m0redmprw6h1.jpeg",
+      "commentsUrl": "https://www.reddit.com/r/recruitinghell/comments/1u462ui/please_roast_my_development_resume_applied_around/",
+      "imageUrl": "https://preview.redd.it/4m0redmprw6h1.jpeg?width=640&crop=smart&auto=webp&s=4b839211bc3d835e107b2cf5523bdd22209b006f",
+      "contentType": "html",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/recruitinghell/comments/1u462ui/please_roast_my_development_resume_applied_around/\"> <img src=\"https://preview.redd.it/4m0redmprw6h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4b839211bc3d835e107b2cf5523bdd22209b006f\" alt=\"Please roast my development resume. Applied around 2000 jobs and barely any calls. International student\" title=\"Please roast my development resume. Applied around 2000 jobs and barely any calls. International student\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Can some recruiters or any senior guys give me inputs on where to improve so that I get calls?</p> <p>Applying for jobs in the US.</p> <p>F-1 international student </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dry_Dimension266\"> /u/Dry_Dimension266 </a> &#32; to &#32; <a href=\"https://www.reddit.com/r/recruitinghell/\"> r/recruitinghell </a> <br/> <span><a href=\"https://i.redd.it/4m0redmprw6h1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/recruitinghell/comments/1u462ui/please_roast_my_development_resume_applied_around/\">[comments]</a></span> </td></tr></table>"
+    }
+  ]
+}
